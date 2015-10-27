@@ -16,44 +16,71 @@ h1, h2, h3, h4{
 
 /*Classes and Id's------------------------------*/
 #header-menu{
-    background-color: ;
-}
-.king-container{
-    
-    width: 80%;
-    border: 1px solid;
-    margin: 0 auto;
-    height: 800px; /*Careful, remmember to change*/
+   width: 100%;
 }
 
 
 .menu{
     /*background-color: #0092D7;*/
     background-color: white;
-    width: 100%;
-    height: 45px;
-    display: inline-block
+    width: inherit;
+    height: 47px;
+    display: inline-block;
+    margin: 0 auto;
+   
+}
+
+.left{
+    float: left;
+    width: 40%;
+    
+    
+}
+.right{
+    float: right;
+    width: 40%;
+}
+
+#top-nav{
+    height : inherit;
+    padding: 0;
+    
 }
 
 #top-nav li{
     display: inline-block;
-    list-style: none;
-    width: 20%;
-    padding-top: 15px;
-    padding-bottom: 11px;
-    padding-left: 1%;
+    list-style: none; 
+    width: 50%;
     margin-top: -20px;
-    margin-left:  -1%;
+    background-color: antiquewhite;
+    
    
 }
      
-#top-nav li:hover{
+#top-nav a:hover{
     background-color: pink;
     
 }
-#top-nav li:visited{
+#top-nav a:visited{
     background-color: pink;
     
+}
+#top-nav a{
+    padding-top: 16px;
+    padding-bottom: 11px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 20px;
+    display: block;
+    text-align:center;
+}
+
+.king-container{
+    
+    width: 80%;
+    border: 1px solid;
+    margin: 0 auto;
+    height: 800px; /*Careful, remmember to change*/
 }
 
 
