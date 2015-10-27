@@ -76,13 +76,30 @@ h1, h2, h3, h4{
 }
 
 .king-container{
-    
+	
     width: 80%;
     border: 1px solid;
     margin: 0 auto;
     height: 800px; /*Careful, remmember to change*/
+	position: relative;
 }
 
+.container{
+	border: 1px solid;
+	margin: 0 auto;
+	width: 60%;
+	height: 30%;
+}
+#hvaGjørSiden{
+	position: absolute;
+	top: 10%;
+	left: 12%;
+}
+#hvemErVi{
+	position: absolute;
+	top: 45%;
+	left: 12%;
+}
 
  #footer-container{
     width: 100%;
