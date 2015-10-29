@@ -90,7 +90,7 @@ h1, h2, h3, h4{
 	position: absolute;
 	left: 12%;
 }
-@media (max-width: 800px)
+@media (max-width: 768px) /* for mobilen */
 {
 	.container{
 		width: 95%;
