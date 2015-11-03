@@ -26,34 +26,46 @@
 			
 			Image.src="image/img" + imagecount + ".jpg";
 		}
-		</script>
+		</script><!-- Lag en ny javascript fill som vi peker til, samme som gi gjør for css-->
 
     </head>
 
+    
     <body>
         
          <!-- <img class="left" id="logo" src="" alt="" /> -->
-        <header id="header-menu">
-                    <nav class="menu">
-                        <ul id="top-nav">
-                            
-                            <li class="left"><a href="index.html">Hjem</a></li><li class="left"><a href="kart.html">Kart</a></li>
-                            
-                           <li><a id="logo-btn"href="index.html"><img id="logo" src="image/logo.gif"/></a> </li>
-                                  
-								<li class="right"><a href="info.html">Info/FAQ</a></li><li class="right"><a href="kontakt.html">Kontakt</a></li>
-                        </ul>
-                    </nav>
+        <header>
+            <nav>
+                <ul id="top-nav">
+
+                    <li id="li-logo" class="left">
+                        <a id="li-logo-link" href="index.html" >
+                            <img id="logo" src="image/logo.gif"/>
+                            <span class="right">Home</span>
+                        </a>
+                    </li>
+                    <li class="left hoverState"><a href="kart.html">Kart</a></li>
+                    <li class="right"><a href="#">Kontakt</a></li>
+                    <li class="right"><a href="#">Info/FAQ</a></li> 
+
+                </ul>
+            </nav>  
         </header>  
 		
 		
         <section class="king-container">
 		
-		<div id="gallericontainer">
-			<img src="image/img1.jpg" alt="bilde" id="img">
-			<div id="left_holder"><img onClick="slide(-1)" id="left" src="image/leftArrow.png" alt="left" ></div>
-			<div id="right_holder"><img onClick="slide(1)" id="right" src="image/rightArrow.png" alt="right" ></div>
-        </div>
+            <div id="gallericontainer">
+                <img src="image/img1.jpg" alt="bilde" id="img">
+
+                <div id="left_holder">
+                    <img onClick="slide(-1)" id="left" src="image/leftArrow.png" alt="A button that takes you to the previous picture" >
+                </div>
+
+                <div id="right_holder">
+                    <img onClick="slide(1)" id="right" src="image/rightArrow.png" alt="A button that takes you to the next picture" >
+                </div>
+            </div>
 		
         </section>
         

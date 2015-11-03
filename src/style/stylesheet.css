@@ -18,8 +18,6 @@ nav{
     height: 50px;
     display: inline-block;
     margin: 0 auto;
-    
-   
 }
 
 footer{
@@ -27,6 +25,12 @@ footer{
     background-color: grey;
     padding-bottom: 1%;
 }
+
+footer ul li {
+    display: inline-block;
+    padding-right: 5%;
+}
+
 /*Tags---------------------------------*/
 
 h1, h2, h3, h4{
@@ -57,7 +61,7 @@ h1, h2, h3, h4{
 
 #top-nav a{
     padding-top: 16px;
-    padding-bottom: 13px;
+    padding-bottom: 14px;
     padding-left: 10%;
     padding-right: 10%;
     height: 20px;
@@ -69,7 +73,6 @@ h1, h2, h3, h4{
 
 #top-nav a:hover{
     background-color: #92DCE0;
-    border-bottom: solid #6d231f;
     color: black;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -152,10 +155,7 @@ h1, h2, h3, h4{
 
 }
 
-footer ul li {
-    display: inline-block;
-    padding-right: 5%;
-}
+
 /*css for kartene*/
 #gallericontainer
 {
