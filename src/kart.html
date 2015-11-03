@@ -6,6 +6,27 @@
         <title>Find it, on P35 </title>
         <link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
         
+		<script type="text/javascript">
+		var imagecount = 1;
+		var total = 3;
+		
+		function slide(v)
+		{
+			var Image = document.getElementById("img");
+			imagecount += v;
+
+			if (imagecount > total)
+			{
+			imagecount = 1;
+			}
+			if (imagecount < 1)
+			{
+			imagecount = total;
+			}
+			
+			Image.src="image/img" + imagecount + ".jpg";
+		}
+		</script>
 
     </head>
 
@@ -24,16 +45,16 @@
                         </ul>
                     </nav>
         </header>  
+		
+		
         <section class="king-container">
-            <section class="container" id="siteDoing">
-				<div><h1>Hva gjør siden?</h1></div>
-				<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae sapien scelerisque, vestibulum nisi non, facilisis nisi. Praesent porta scelerisque sem nec luctus. Donec ultricies mauris at dignissim lobortis. Cras tempor nisi sit amet semper semper. Aenean viverra massa ut elit eleifend tempor. Praesent ut libero viverra, ultrices odio id, auctor neque. Morbi interdum </div>
-            </section>
-			
-			<section class="container" id="whoAreWe">
-				<div><h1>Hvem er vi?</h1></div>
-				<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae sapien scelerisque, vestibulum nisi non, facilisis nisi. Praesent porta scelerisque sem nec luctus. Donec ultricies mauris at dignissim lobortis. Cras tempor nisi sit amet semper semper. Aenean viverra massa ut elit eleifend tempor. Praesent ut libero viverra, ultrices odio id, auctor neque. Morbi interdum </div>
-			</section>
+		
+		<div id="gallericontainer">
+			<img src="image/img1.jpg" alt="bilde" id="img">
+			<div id="left_holder"><img onClick="slide(-1)" id="left" src="image/leftArrow.png" alt="left" ></div>
+			<div id="right_holder"><img onClick="slide(1)" id="right" src="image/rightArrow.png" alt="right" ></div>
+        </div>
+		
         </section>
         
             <footer>
