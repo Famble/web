@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Find it, on P35 </title>
+        <link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
+        
+		<script type="text/javascript">
+		var imagecount = 1;
+		var total = 3;
+		
+		function slide(v)
+		{
+			var Image = document.getElementById("img");
+			imagecount += v;
+
+			if (imagecount > total)
+			{
+			imagecount = 1;
+			}
+			if (imagecount < 1)
+			{
+			imagecount = total;
+			}
+			
+			Image.src="image/img" + imagecount + ".jpg";
+		}
+		</script>
+
+    </head>
+
+    <body>
+        
+         <!-- <img class="left" id="logo" src="" alt="" /> -->
+        <header id="header-menu">
+                    <nav class="menu">
+                        <ul id="top-nav">
+                            
+                            <li class="left"><a href="index.html">Hjem</a></li><li class="left"><a href="kart.html">Kart</a></li>
+                            
+                           <li><a id="logo-btn"href="index.html"><img id="logo" src="image/logo.gif"/></a> </li>
+                                  
+								<li class="right"><a href="info.html">Info/FAQ</a></li><li class="right"><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </nav>
+        </header>  
+		
+		
+        <section class="king-container">
+		
+		<div id="gallericontainer">
+			<img src="image/img1.jpg" alt="bilde" id="img">
+			<div id="left_holder"><img onClick="slide(-1)" id="left" src="image/leftArrow.png" alt="left" ></div>
+			<div id="right_holder"><img onClick="slide(1)" id="right" src="image/rightArrow.png" alt="right" ></div>
+        </div>
+		
+        </section>
+        
+            <footer>
+                <ul>
+                    <li>one</li>
+                    <li>one</li>
+                    <li>one</li>
+                    <li>one</li>
+                </ul>
+            </footer>
+    </body>
+</html>

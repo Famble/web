@@ -151,9 +151,51 @@ h1, h2, h3, h4{
     background-color: #DADFE1;
 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6ebfc8d4086a498017d29373796c35aaa2ee1a3
 footer ul li {
     display: inline-block;
     padding-right: 5%;
 }
 
+<<<<<<< HEAD
+=======
+/*css for kartene*/
+#gallericontainer
+{
+	width:80%;
+	height:450px;
+	position:absolute;
+	right:0%;
+}
+#img
+{
+	width:80%;
+	position:absolute;
+	right:10%;
+}
+#left_holder, #right_holder
+{
+	height:450px;
+	width:10%;
+	position:absolute;
+	top:0px;
+}
+#right_holder
+{
+	right:0%;
+}
+#left_holder
+{
+	left:0%;
+}
+#left, #right
+{
+	width:50%;
+	height:25%;
+	position:absolute;
+	top:40%;
+}
+>>>>>>> b6ebfc8d4086a498017d29373796c35aaa2ee1a3
