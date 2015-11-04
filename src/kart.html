@@ -6,27 +6,7 @@
         <title>Find it, on P35 </title>
         <link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
         
-		<script type="text/javascript">
-		var imagecount = 1;
-		var total = 3;
-		
-		function slide(v)
-		{
-			var Image = document.getElementById("img");
-			imagecount += v;
-
-			if (imagecount > total)
-			{
-			imagecount = 1;
-			}
-			if (imagecount < 1)
-			{
-			imagecount = total;
-			}
-			
-			Image.src="image/img" + imagecount + ".jpg";
-		}
-		</script><!-- Lag en ny javascript fill som vi peker til, samme som gi gjør for css-->
+		<script type="text/javascript" src="javascript/javascript.js"></script>
 
     </head>
 
@@ -53,10 +33,21 @@
         </header>  
 		
 		
-        <section class="king-container">
+        <article class="king-container">
+		
+			<div id="kartmeny"><!--meny for etasjene-->
+				<ul>
+					<li onClick="setBilde(3)">Etasje 3</li>
+					<li onClick="setBilde(4)">Etasje 4</li>
+					<li onClick="setBilde(5)">Etasje 5</li>
+					<li onClick="setBilde(6)">Etasje 6</li>
+					<li onClick="setBilde(7)">Etasje 7</li>
+					<li onClick="setBilde(8)">Etasje 8</li>
+				</ul>
+			</div>
 		
             <div id="gallericontainer">
-                <img src="image/img1.jpg" alt="bilde" id="img">
+                <img src="image/kart/etasje3.png" alt="bilde" id="img">
 
                 <div id="left_holder">
                     <img onClick="slide(-1)" id="left" src="image/leftArrow.png" alt="A button that takes you to the previous picture" >
@@ -67,7 +58,7 @@
                 </div>
             </div>
 		
-        </section>
+        </article>
         
             <footer>
                 <ul>

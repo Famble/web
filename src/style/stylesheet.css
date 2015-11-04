@@ -160,19 +160,37 @@ h1, h2, h3, h4{
 #gallericontainer
 {
 	width:80%;
-	height:450px;
+	height:400px;
 	position:absolute;
 	right:0%;
+}
+#kartmeny
+{
+	width:20%;
+	float:left;
+	color: white;
+	background-color:#0092D7;
+	border-radius:0px 0px 15px;
+}
+#kartmeny li:hover
+{
+	background-color: #92DCE0;
+   /* color: black;*/
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 #img
 {
 	width:80%;
 	position:absolute;
 	right:10%;
+	height:100%;
 }
 #left_holder, #right_holder
 {
-	height:450px;
+	height:400px;
 	width:10%;
 	position:absolute;
 	top:0px;
@@ -192,3 +210,8 @@ h1, h2, h3, h4{
 	position:absolute;
 	top:40%;
 }
+#left
+{
+	right:0%;
+}
+
