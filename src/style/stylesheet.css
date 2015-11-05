@@ -33,10 +33,13 @@ footer ul li {
 
 /*Tags---------------------------------*/
 
-h1, h2, h3, h4{
+h1, h3, h4{
     color: black;
 }
-
+h2
+{
+	color:white;
+}
 
 /*Classes and Id's------------------------------*/
 
@@ -166,11 +169,17 @@ h1, h2, h3, h4{
 }
 #kartmeny
 {
-	width:20%;
+	position:absolute;
+	top:5%;
+	width:115px;
 	float:left;
 	color: white;
 	background-color:#0092D7;
-	border-radius:0px 0px 15px;
+	border-radius:0px 15px 15px 0px;
+}
+#kartmeny li
+{
+	list-style:none;
 }
 #kartmeny li:hover
 {
