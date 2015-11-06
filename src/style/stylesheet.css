@@ -6,18 +6,22 @@ body{
     font-size: 100%;
     margin: 0; 
     background-color: #EEEEEE;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 header{
     width: 100%;
     height: 50px;
+    border-bottom: 3px solid #E9D460;
+    margin-bottom: 15px;
 }
 
 nav{
-    background-color: #0092D7;
+    background-color: #1BA39C;
     width: inherit;
     height: 50px;
     display: inline-block;
     margin: 0 auto;
+    margin-bottom: 300px;
 }
 
 footer{
@@ -63,8 +67,12 @@ h2
 }
 
 #top-nav a{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed',sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
     padding-top: 16px;
-    padding-bottom: 14px;
+    padding-bottom: 12px;
     padding-left: 10%;
     padding-right: 10%;
     height: 20px;
@@ -75,8 +83,14 @@ h2
 }
 
 #top-nav a:hover{
-    background-color: #92DCE0;
-    color: black;
+    
+    color: #fbefc5;
+    
+/*
+    background-color: #22cfc6;
+    font-weight: bold;
+*/
+    border-bottom: 2px solid;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -85,10 +99,16 @@ h2
 
 #li-logo{
     width: 30% !important;
+    margin-left: -20px;
+/*
+    padding-left: -10% !important;
+*/
 }
 
-.hoverState{
-    background-color: #92DCE0;
+#top-nav .hoverState{
+    background-color: #22cfc6;
+    color: #000;
+    
 }
     
 .left{
@@ -129,10 +149,12 @@ h2
 
 /*Backgrun på pre content*/
 #background-img{
+
     width: 100%;
-    height: 400px;
+    height: auto;
     background-image: url('../image/polygon.jpg');
-    background-size: 100% 100%;
+    background-size:  100% 100%;
+    
 }
 
 /*text på pre content*/
@@ -143,7 +165,7 @@ h2
     padding: 5%;
 }
 #introtext h1, h3{
-    color: #fff;
+    color: red;
 }
 
 /*Tekst container her*/

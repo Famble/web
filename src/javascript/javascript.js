@@ -15,7 +15,7 @@
 		imagecount = total;
 		}
 			
-		Image.src="image/kart/etasje" + imagecount + ".png";
+		Image.src="../image/kart/etasje" + imagecount + ".png";
 	}
 		/*mangler bilder for etasje 1 og 2, har basement men kan ikke legge til før 1 og 2.
 		Bildet til etasje 8 må fikses litt på. */
@@ -24,5 +24,5 @@
 	{
 		var Image = document.getElementById("img");
 		
-		Image.src="image/kart/etasje" + x + ".png";
+		Image.src="../image/kart/etasje" + x + ".png";
 	}
