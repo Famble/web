@@ -193,11 +193,25 @@ h2
 {
 	position:absolute;
 	top:5%;
-	width:115px;
+	width:110px;
+	height:220px;
 	float:left;
 	color: white;
 	background-color:#0092D7;
 	border-radius:0px 15px 15px 0px;
+}
+#velgEtasje
+{
+	width:70%;
+	height:auto;
+	position:absolute;
+	right:0%;
+}
+#etasjeListe
+{
+	position:absolute;
+	bottom:0%;
+	left:0%;
 }
 #kartmeny li
 {
@@ -206,6 +220,7 @@ h2
 #kartmeny li:hover
 {
 	background-color: #92DCE0;
+	color:black;
    /* color: black;*/
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -236,8 +251,8 @@ h2
 }
 #left, #right
 {
-	width:50%;
-	height:25%;
+	width:65%;
+	height:20%;
 	position:absolute;
 	top:40%;
 }
