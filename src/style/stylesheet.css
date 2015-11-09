@@ -182,10 +182,9 @@ h2
 #kartmeny
 {
 	position:absolute;
-	top:5%;
+	top:0%;
 	width:110px;
-	height:220px;
-	float:left;
+	height:270px;
 	color: white;
 	background-color:#0092D7;
 	border-radius:0px 15px 15px 0px;
