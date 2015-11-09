@@ -140,7 +140,7 @@ h2
     width: 85%;
     margin: 0 auto;
     min-height: 1200px ;
-   height: auto; /*Careful, remmember to change*/
+    height: auto; /*Careful, remmember to change*/
 	position: relative;
 }
 
@@ -178,13 +178,7 @@ h2
 
 
 /*css for kartene*/
-#gallericontainer
-{
-	width:80%;
-	height:400px;
-	position:absolute;
-	right:0%;
-}
+
 #kartmeny
 {
 	position:absolute;
@@ -205,6 +199,7 @@ h2
 }
 #etasjeListe
 {
+	width:100%;
 	position:absolute;
 	bottom:0%;
 	left:0%;
@@ -222,6 +217,13 @@ h2
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
+}
+#gallericontainer
+{
+	width:500px;
+	height:300px;
+	position:absolute;
+	right:0%;
 }
 #img
 {
@@ -248,7 +250,7 @@ h2
 #left, #right
 {
 	width:65%;
-	height:20%;
+	height:15%;
 	position:absolute;
 	top:40%;
 }

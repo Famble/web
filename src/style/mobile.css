@@ -5,3 +5,17 @@
 .king-container{
     width: 100% !important;
 }
+#kartmeny{
+	top:0%;
+	float:none;
+	clear:both;
+	width:100%;
+	border-radius:0px;
+}
+#gallericontainer{
+	top:220px;
+	width:100%;
+}
+#img{
+	
+}

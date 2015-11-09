@@ -1,4 +1,4 @@
-	var imagecount = 3;
+	var imagecount = 0;
 	var total = 8;
 		
 	function slide(v)
@@ -8,21 +8,19 @@
 
 		if (imagecount > total)
 		{
-		imagecount = 3;
+		imagecount = 0;
 		}
-		if (imagecount < 3)
+		if (imagecount < 0)
 		{
 		imagecount = total;
 		}
 			
-		Image.src="../image/kart/etasje" + imagecount + ".png";
+		Image.src="../image/kart/etasje" + imagecount + ".gif";
 	}
-		/*mangler bilder for etasje 1 og 2, har basement men kan ikke legge til før 1 og 2.
-		Bildet til etasje 8 må fikses litt på. */
 		
 	function setBilde(x)
 	{
 		var Image = document.getElementById("img");
 		
-		Image.src="../image/kart/etasje" + x + ".png";
+		Image.src="../image/kart/etasje" + x + ".gif";
 	}

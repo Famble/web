@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Find it, on P35 </title>
         <link rel="stylesheet" type="text/css" href="../style/stylesheet.css" />
-        
+        <link rel="stylesheet" type="text/css" media="(max-width: 720px)" href="../style/mobile.css" />
+		
 		<script type="text/javascript" src="../javascript/javascript.js"></script>
 
     </head>
@@ -39,6 +40,9 @@
 				<div id="velgEtasje"><h2>Velg etasje</h2></div>
 				<div id="etasjeListe">
 					<ul>
+						<li onClick="setBilde(0)">Kjeller</li>
+						<li onClick="setBilde(1)">Etasje 1</li>
+						<li onClick="setBilde(2)">Etasje 2</li>
 						<li onClick="setBilde(3)">Etasje 3</li>
 						<li onClick="setBilde(4)">Etasje 4</li>
 						<li onClick="setBilde(5)">Etasje 5</li>
@@ -50,7 +54,7 @@
 			</aside>
 		
             <div id="gallericontainer">
-                <img src="../image/kart/etasje3.png" alt="bilde" id="img">
+                <img src="../image/kart/etasje0.gif" alt="bilde" id="img">
 
                 <div id="left_holder">
                     <img onClick="slide(-1)" id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" >
