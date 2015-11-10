@@ -1,5 +1,20 @@
+#top-nav{
+    margin-left: -70px !important;
+}
+
 #top-nav li{
     width: 25%;
+}
+
+#top-nav a{
+    letter-spacing: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#top-nav a:hover{
+    letter-spacing: 1px;;
+    
 }
 
 .king-container{

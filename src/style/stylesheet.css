@@ -55,6 +55,7 @@ h2
 #top-nav{
     padding: 0;
     margin-top: 0;
+    margin-left: -300px;
     height: inherit;
 }
 
@@ -62,7 +63,7 @@ h2
     display: inline-block;
     background-color: 
     list-style: none; 
-    width: 20%;
+    width: 23%;
     height: 50px;
 /*    background-color: antiquewhite;*/
     border-radius: 5px;
@@ -102,7 +103,7 @@ h2
 }
 
 #li-logo{
-    width: 30% !important;
+    width: 30% !important
     margin-left: -20px;
 /*
     padding-left: -10% !important;
@@ -133,6 +134,7 @@ h2
 #logo{
     width: 50px;
     height: 50px;
+    float: left;
 /*    margin-left: -50px;*/
     padding: 0;
     top:-15px;
@@ -182,15 +184,15 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 
 /*text på pre content*/
 #introtext{
-    width: 40%;
+    width: 50%;
     height: 200px;
-    margin: auto;
-    padding: 5%;
+    padding: 2%;
     background-color: white;
- opacity: 0.9;
+    opacity: 0.69;
 }
-#introtext h3{
-    color: white;
+#introtext-p{
+    color: black;
+    font-size: 16px;
 }
 
 
