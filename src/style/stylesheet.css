@@ -5,10 +5,13 @@ html {
 body{
     font-size: 100%;
     margin: 0; 
-/*    background-color: #EEEEEE;*/
-        background-color: #92DCE0;
+/*        background-color: #92DCE0;*/
+    
+    background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/04/light-blue-canvas-fabric-texture.jpg');
     font-family: 'Roboto Condensed', sans-serif;
+    background-size: 100% 100%;
 }
+
 header{
     width: 100%;
     height: 50px;
@@ -90,10 +93,7 @@ h2
 #top-nav a:hover{
     
     color: black;
-    
-/*    color: #CD2027;*/
     border-bottom: solid 2px;
-
     font-weight: bold;
     letter-spacing: 2px;
     -webkit-transition: all 0.2s ease;
@@ -111,9 +111,9 @@ h2
 }
 
 #top-nav .hoverState{
-    background-color: #22cfc6;
-    color: #000;
-    
+    border-bottom: solid 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
     
 .left{
@@ -184,11 +184,12 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 
 /*text på pre content*/
 #introtext{
-    width: 50%;
+    width: 2%;
     height: 200px;
     padding: 2%;
     background-color: white;
     opacity: 0.69;
+    overflow: scroll;
 }
 #introtext-p{
     color: black;
