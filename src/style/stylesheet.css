@@ -5,9 +5,9 @@ html {
 body{
     font-size: 100%;
     margin: 0; 
-/*        background-color: #92DCE0;*/
+        background-color: #92DCE0;
     
-    background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/04/light-blue-canvas-fabric-texture.jpg');
+/*    background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/04/light-blue-canvas-fabric-texture.jpg');*/
     font-family: 'Roboto Condensed', sans-serif;
     background-size: 100% 100%;
 }
@@ -15,7 +15,7 @@ body{
 header{
     width: 100%;
     height: 50px;
-    border-bottom: 1px solid black;
+    
     margin-bottom: 15px;
 }
 
@@ -26,6 +26,9 @@ nav{
     height: 50px;
     display: inline-block;
     margin: 0 auto;
+    z-index: 1;
+    position: fixed;
+    border-bottom: 1px solid black;
 }
 
 footer{
@@ -161,6 +164,7 @@ h2
 /*    background-color: #DADFE1;*/
     background-color: #fcfcfc;
     color: #3d3d3d;
+    box-shadow: 1px 1px 1px #888888;
 }
 .liten_container{
 	height:10%;
@@ -176,20 +180,26 @@ h2
 #background-img{
 
     width: 100%;
-    height: auto;
+    height: 200px;
 background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.jpg);
     background-size:  100% 100%;
-    
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /*text på pre content*/
 #introtext{
-    width: 2%;
-    height: 200px;
-    padding: 2%;
+    
+    width: 50%;
+    height: 80%;
+    //padding: 2%;
     background-color: white;
     opacity: 0.69;
     overflow: scroll;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+/*    margin: 2%;*/
 }
 #introtext-p{
     color: black;
@@ -203,7 +213,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 
 #kartmeny
 {
-	position:absolute;
+	position:block;
 	top:0%;
 	width:110px;
 	height:270px;
@@ -215,13 +225,13 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 {
 	width:70%;
 	height:auto;
-	position:absolute;
+	position:block;
 	right:0%;
 }
 #etasjeListe
 {
 	width:100%;
-	position:absolute;
+	position:block;
 	bottom:0%;
 	left:0%;
 }
