@@ -7,6 +7,8 @@
         <link rel="stylesheet" type="text/css" href="../style/stylesheet.css" />
         <link rel="stylesheet" type="text/css" media="(max-width: 720px)" href="../style/mobile.css" />
 		
+		<script type="text/javascript" src="../javascript/javascript.js"></script>
+		
     </head>
 	
 	<body>
@@ -25,22 +27,43 @@
         </header>  
 		
 		<article class="king-container">
+		
 			<article class="container">
-			
-				<h4>What do symbols on the map mean?</h4>
-				<article class="liten_container">
-					<img class="faq_bilde" src="../image/faq/emergency.png" alt="Emergency exit icon" />
-					This one means Emergency Exit only.
+				<div class="spørsmål">
+				<img src="../image/down_arrow.png" id="downarrow" >
+				<h4><span onClick="toggleFAQ('svar1')">What do symbols on the map mean?</span></h4>
+				</div>
+				
+				<article class="skjul" id="svar1">
+				This one means Emergency Exit only.
 We have marked some of the least intuitive Emergency Exits in the building. They may seem to be hidden, however once You have seen one of those, it will become easier for You to remember.
 				</article>
 				
-				<article class="liten_container">
-					<img class="faq_bilde" src="../image/faq/wwc.png" alt="Womens bathroom icon" />
-					<img class="faq_bilde" src="../image/faq/mwc.png" alt="Mens bathroom icon" />
-					This is men and womens bathroom.
+				<div class="spørsmål">
+				<img src="../image/down_arrow.png" id="downarrow" >
+				<h4><span onClick="toggleFAQ('svar2')">Why are rooms marked with letters? What do those letters mean?</span></h4>
+				</div>
+				
+				<article class="skjul" id="svar2">
+				As You have noticed we have rooms with different letters in front of the room number. Those letters are short for the street name, because each classroom is placed in different building area, which has a neighboring street.
 				</article>
 				
+				<div class="spørsmål">
+				<img src="../image/down_arrow.png" id="downarrow" >
+				<h4><span onClick="toggleFAQ('svar3')">What do symbols on the map mean?</span></h4>
+				</div>
+				
+				<article class="skjul" id="svar3">
+				There are actually 9 levels. Groundfloor(1 level) all the way to the 8th floor and the basement with gym, lockers and bathrooms.
+				</article>
 			</article>
+			
+			
+			
+			
+			
+			
+			
 		</article>
 		
 	</body>

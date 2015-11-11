@@ -279,3 +279,41 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 {
 	right:0%;
 }
+
+.vis{
+	overflow:hidden;
+	max-height:100em;
+	transition-property:max-height;
+	transition-duration:0.5s;
+}
+.skjul
+{
+	overflow:hidden;
+	max-height:0;
+	transition-property:max-height;
+	transition-duration:1s;
+}
+
+.container span
+{
+	cursor:pointer;
+	cursor:hand;
+}
+h4
+{
+	display:inline;
+}
+.spørsmål
+{
+	height:auto;
+}
+#downarrow
+{
+	
+	height:1em;
+	width:1em;
+}
+.vis, .skjul, .spørsmål
+{
+	margin-bottom:10px;
+}
