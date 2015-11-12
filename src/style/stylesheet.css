@@ -1,4 +1,4 @@
-html {
+﻿html {
     
 }
 
@@ -189,21 +189,24 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 
 /*text på pre content*/
 #introtext{
-    
+    font-size: 20px;
     width: 50%;
     height: 80%;
     //padding: 2%;
     background-color: white;
     opacity: 0.69;
-    overflow: scroll;
+    padding-top:10px;
+    padding-left:10px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 /*    margin: 2%;*/
 }
 #introtext-p{
+    
     color: black;
-    font-size: 16px;
+    font-size: 1.25em;
+    
 }
 
 
