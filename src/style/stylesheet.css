@@ -258,8 +258,8 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	display:block;
 	width:85%;
 	height:60%;
-	/*position:absolute;
-	right:0%;*/
+	position:absolute;
+	bottom:10%;
 	border-style:dotted;
 	border-width:1px;
 }
