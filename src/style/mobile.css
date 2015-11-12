@@ -30,4 +30,5 @@
 #gallericontainer{
 	top:270px;
 	width:100%;
+	display:block;
 }
