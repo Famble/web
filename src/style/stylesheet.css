@@ -251,10 +251,10 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 }
 #gallericontainer
 {
-	width:500px;
-	height:300px;
-	position:absolute;
-	right:0%;
+	width:85%;
+	height:60%;
+	/*position:absolute;
+	right:0%;*/
 }
 #img
 {
