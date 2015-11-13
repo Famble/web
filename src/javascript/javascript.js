@@ -52,31 +52,31 @@
 		switch(imagecount)
 		{
 			case 0:
-				image.alt = "kjeller";
+				image.alt = "Basement";
 				break;
 			case 1:
-				image.alt = "etasje1";
+				image.alt = "Floor 1";
 				break;
 			case 2:
-				image.alt = "etasje2";
+				image.alt = "Floor 2";
 				break;
 			case 3:
-				image.alt = "etasje3";
+				image.alt = "Floor 3";
 				break;
 			case 4:
-				image.alt = "etasje4";
+				image.alt = "Floor 4";
 				break;
 			case 5:
-				image.alt = "etasje5";
+				image.alt = "Floor 5";
 				break;
 			case 6:
-				image.alt = "etasje6";
+				image.alt = "Floor 6";
 				break;
 			case 7:
-				image.alt = "etasje7";
+				image.alt = "Floor 7";
 				break;
 			case 8:
-				image.alt = "etasje8";
+				image.alt = "Floor 8";
 				break;
 		}
 	}
