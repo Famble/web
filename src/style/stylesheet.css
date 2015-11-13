@@ -275,12 +275,9 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 }
 #img
 {
-	display:block;
 	width:80%;
 	height:auto;
-	position: relative;
-    margin-left: auto;
-    margin-right: auto;
+   
 
 }
 #left_holder, #right_holder
@@ -289,18 +286,16 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	width:10%;
 	border-style:dotted;
 	border-width:1px;
-    top: 40%;
-    position: absolute;
   
 }
 
 #right_holder
 {
-	right: 0%;
+	float: right;
 }
 #left_holder
 {
-	left: 0%;
+	float: left;
 }
 #left, #right
 {
