@@ -1,4 +1,13 @@
-	document.onkeypress = keyPressSlide;
+	/* endrer bilde med piltastene */
+	document.addEventListener('keydown', function(event) 
+	{
+    if(event.keyCode == 37) {
+        slide(-1);
+    }
+    else if(event.keyCode == 39) {
+        slide(1);
+    }
+	});
 	
 	var imagecount = 0;
 	var total = 8;
@@ -22,20 +31,8 @@
 		Image.src="../image/kart/etasje" + imagecount + ".gif";
 	}	
 	
-	/* endrer bilde ved hjelp av piltastene*/
-	function keyPressSlide()
-	{
-		var a = event.which || event.keyCode;
-		
-		if(a == 39)
-		{
-			slide(1);
-		}
-		else if(a == 37)
-		{
-			slide(-1);
-		}
-	}
+
+	
 	
 	
 	/* endrer bilde når man trykker i etasje-menyen*/
