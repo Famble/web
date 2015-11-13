@@ -157,7 +157,8 @@ h2
 .king-container{	
     width: 85%;
     margin: 0 auto;
-    min-height: 1200px ;
+    margin-bottom: 60px;
+    min-height: 950px ;
     height: auto;
 	position: relative;
 }
@@ -266,7 +267,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 {
     margin-left: auto;
     margin-right: auto;
-	display:block;
+    display:block;
 	width:100%;
 	height:auto;
     position: relative;
