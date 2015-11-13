@@ -1,12 +1,11 @@
 	/* endrer bilde med piltastene */
-	document.addEventListener('keydown', function(event) 
-	{
-    if(event.keyCode == 37) {
-        slide(-1);
-    }
-    else if(event.keyCode == 39) {
-        slide(1);
-    }
+	document.addEventListener('keydown', function(event){
+        if(event.keyCode == 37) {
+            slide(-1);
+        }
+        else if(event.keyCode == 39) {
+            slide(1);
+        }
 	});
 	
 	
@@ -43,6 +42,7 @@
 		changeAlt(x);
 		changeFloor(x);
 		imagecount = x;
+        
 		
 		Image.src="../image/kart/etasje" + x + ".gif";
 	}
@@ -104,3 +104,4 @@
 		document.getElementById(answer).classList.toggle("vis");
 		document.getElementById(answer).classList.toggle("skjul");
 	}
+
