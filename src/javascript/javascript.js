@@ -30,6 +30,7 @@
 		}
 		
 		changeAlt(imagecount);
+		changeFloor(imagecount);
 		
 		Image.src="../image/kart/etasje" + imagecount + ".gif";
 	}	
@@ -40,16 +41,31 @@
 		var Image = document.getElementById("img");
 		
 		changeAlt(x);
+		changeFloor(x);
+		imagecount = x;
 		
 		Image.src="../image/kart/etasje" + x + ".gif";
 	}
 	
+	function changeFloor(floorNr)
+	{	
+		if(floorNr == 0)
+		{
+			document.getElementById("floor").innerHTML = "Basement";
+		}
+		else
+		{
+			document.getElementById("floor").innerHTML = String(floorNr);
+		}
+	}
+	
+	
 	/* funksjon som endrer alt-taggen til bildet */
-	function changeAlt(imagecount)
+	function changeAlt(imgcount)
 	{
 		var image = document.getElementById("img");
 		
-		switch(imagecount)
+		switch(imgcount)
 		{
 			case 0:
 				image.alt = "Basement";
@@ -81,6 +97,7 @@
 		}
 	}
 	
+
 	/* åpner og lukker svar i FAQ-en */
 	function toggleFAQ(answer)
 	{
