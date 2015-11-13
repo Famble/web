@@ -28,7 +28,9 @@
 		{
 		imagecount = total;
 		}
-			
+		
+		changeAlt(imagecount);
+		
 		Image.src="../image/kart/etasje" + imagecount + ".gif";
 	}	
 	
@@ -36,6 +38,8 @@
 	function setBilde(x)
 	{
 		var Image = document.getElementById("img");
+		
+		changeAlt(x);
 		
 		Image.src="../image/kart/etasje" + x + ".gif";
 	}
@@ -48,7 +52,7 @@
 		switch(imagecount)
 		{
 			case 0:
-				image.alt = "etasje0";
+				image.alt = "kjeller";
 				break;
 			case 1:
 				image.alt = "etasje1";
