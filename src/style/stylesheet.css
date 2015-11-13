@@ -270,32 +270,44 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	width:85%;
 	height:auto;
     position: block;
-    background-color:aliceblue;
+	border-style:dotted;
+	border-width:1px;
+    background-color:aliceblue 
 }
 #img
 {
-	display:block;
 	width:80%;
 	height:auto;
+<<<<<<< HEAD
 	position: relative;
     margin-left: auto;
     margin-right: auto;
+=======
+   
+
+>>>>>>> e2811d4aa89767a29f1dbd56198e79b18414645f
 }
 #left_holder, #right_holder
 {
 	height:auto;
 	width:10%;
+<<<<<<< HEAD
     top: 40%;
     position: absolute;
+=======
+	border-style:dotted;
+	border-width:1px;
+  
+>>>>>>> e2811d4aa89767a29f1dbd56198e79b18414645f
 }
 
 #right_holder
 {
-	right: 0%;
+	float: right;
 }
 #left_holder
 {
-	left: 0%;
+	float: left;
 }
 #left, #right
 {
