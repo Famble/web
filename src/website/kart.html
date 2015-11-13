@@ -35,17 +35,17 @@
             <nav id="kartmeny">
 				
 				<div id="etasjeListe">
-					<ul>
-						<li onClick="setBilde(0)">Basement</li>
-						<li onClick="setBilde(1)">1st floor</li>
-						<li onClick="setBilde(2)">2nd floor</li>
-						<li onClick="setBilde(3)">3rd floor</li>
-						<li onClick="setBilde(4)">4th floor</li>
-						<li onClick="setBilde(5)">5th floor</li>
-						<li onClick="setBilde(6)">6th floor</li>
-						<li onClick="setBilde(7)">7th floor</li>
-						<li onClick="setBilde(8)">8th floor</li>
-					</ul>
+					
+						<a onClick="setBilde(0)">Basement</a>
+						<a onClick="setBilde(1)">1st floor</a>
+						<a onClick="setBilde(2)">2nd floor</a>
+						<a onClick="setBilde(3)">3rd floor</a>
+						<a onClick="setBilde(4)">4th floor</a>
+						<a onClick="setBilde(5)">5th floor</a>
+						<a onClick="setBilde(6)">6th floor</a>
+						<a onClick="setBilde(7)">7th floor</a>
+						<a onClick="setBilde(8)">8th floor</a>
+					
 				</div>
 			</nav>
         </header>  
@@ -60,10 +60,12 @@
                 
 
                 <div id="left_holder">
-                    <img onClick="slide(-1)" onkeypress="keyPressSlideLeft()" id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" >
+                    <a><img onClick="slide(-1)" onkeypress="keyPressSlideLeft()" id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" ></a>
                 </div>
                 <div id="right_holder">
+                    <a>
                     <img onClick="slide(1)" onkeypress="keyPressSlideRight()" id="right" src="../image/rightArrow.png" alt="A button that takes you to the next picture" >
+                        </a>
                 </div>
                 
 				<img src="../image/kart/etasje0.gif" alt="Basement" id="img">

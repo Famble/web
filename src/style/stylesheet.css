@@ -157,7 +157,7 @@ h2
 .king-container{	
     width: 85%;
     margin: 0 auto;
-    min-height: 900px ;
+    min-height: 1200px ;
     height: auto;
 	position: relative;
 }
@@ -237,13 +237,9 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
     padding: 0;
 }
 
-#etasjeListe ul
-{
-    padding-left: 1%;
-    
-}
 
-#etasjeListe li{
+
+#etasjeListe a{
     color: black;
     margin: 0;
     display: inline-block;
@@ -254,7 +250,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	cursor:hand;
 }
 
-#etasjeListe li:hover
+#etasjeListe a:hover
 {
 	font-weight:bold;
 	color:black;
