@@ -9,9 +9,10 @@
     }
 	});
 	
+	
+	
 	var imagecount = 0;
 	var total = 8;
-	
 		
 	/* endrer bilde når man trykker på pilene*/
 	function slide(v)
@@ -31,16 +32,49 @@
 		Image.src="../image/kart/etasje" + imagecount + ".gif";
 	}	
 	
-
-	
-	
-	
 	/* endrer bilde når man trykker i etasje-menyen*/
 	function setBilde(x)
 	{
 		var Image = document.getElementById("img");
 		
 		Image.src="../image/kart/etasje" + x + ".gif";
+	}
+	
+	/* funksjon som endrer alt-taggen til bildet */
+	function changeAlt(imagecount)
+	{
+		var image = document.getElementById("img");
+		
+		switch(imagecount)
+		{
+			case 0:
+				image.alt = "etasje0";
+				break;
+			case 1:
+				image.alt = "etasje1";
+				break;
+			case 2:
+				image.alt = "etasje2";
+				break;
+			case 3:
+				image.alt = "etasje3";
+				break;
+			case 4:
+				image.alt = "etasje4";
+				break;
+			case 5:
+				image.alt = "etasje5";
+				break;
+			case 6:
+				image.alt = "etasje6";
+				break;
+			case 7:
+				image.alt = "etasje7";
+				break;
+			case 8:
+				image.alt = "etasje8";
+				break;
+		}
 	}
 	
 	/* åpner og lukker svar i FAQ-en */
