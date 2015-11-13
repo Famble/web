@@ -55,7 +55,7 @@
 		}
 		else
 		{
-			document.getElementById("floor").innerHTML = String(floorNr);
+			document.getElementById("floor").innerHTML = String(floorNr) + ".";
 		}
 	}
 	
