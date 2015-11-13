@@ -269,9 +269,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	width:85%;
 	height:auto;
     position: block;
-	border-style:dotted;
-	border-width:1px;
-    background-color:aliceblue 
+    background-color:aliceblue;
 }
 #img
 {
@@ -287,8 +285,6 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 {
 	height:auto;
 	width:10%;
-	border-style:dotted;
-	border-width:1px;
     top: 40%;
     position: absolute;
   
