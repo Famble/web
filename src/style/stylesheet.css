@@ -161,7 +161,7 @@ h2
 	position: relative;
 }
 #h1Map{
-    padding-top: 30px;
+    margin-top:50px;
 }
 
 /*Tekst container her*/
@@ -238,7 +238,6 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 
 #etasjeListe ul
 {
-	width:100%;
     padding-left: 1%;
     
 }
@@ -249,6 +248,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
     display: inline-block;
     width: 10%;
     list-style:none;
+    padding-bottom: 10px;
 }
 
 #etasjeListe li:hover
@@ -263,11 +263,12 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 }
 #gallericontainer
 {
-
+    margin-left: auto;
+    margin-right: auto;
 	display:block;
 	width:85%;
-	height:60%;
-	position:absolute;
+	height:auto;
+    position: block;
 	border-style:dotted;
 	border-width:1px;
     background-color:aliceblue 
@@ -277,38 +278,34 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	display:block;
 	width:80%;
 	height:auto;
-	position:absolute;
-	right:10%;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 #left_holder, #right_holder
 {
-	height:400px;
+	height:auto;
 	width:10%;
-	position:absolute;
-	top:0px;
 	border-style:dotted;
 	border-width:1px;
+    top: 40%;
+    position: absolute;
+  
 }
+
 #right_holder
 {
-	right:0%;
+	right: 0%;
 }
 #left_holder
 {
-	left:0%;
+	left: 0%;
 }
 #left, #right
 {
-	width:65%;
-	height:15%;
-	position:absolute;
-	top:40%;
+	width:100%;
 }
-#left
-{
-	right:0%;
-}
-
 .vis{
 	overflow:hidden;
 	max-height:100em;
