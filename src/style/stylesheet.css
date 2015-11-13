@@ -311,14 +311,14 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	overflow:hidden;
 	max-height:100em;
 	transition-property:max-height;
-	transition-duration:0.5s;
+	transition-duration:0.2s;
 }
 .skjul
 {
 	overflow:hidden;
 	max-height:0;
 	transition-property:max-height;
-	transition-duration:0.5s;
+	transition-duration:0.2s;
 }
 
 .container span
@@ -333,6 +333,7 @@ h4
 .spørsmål
 {
 	height:auto;
+    padding: 1.5%
 }
 #downarrow
 {
