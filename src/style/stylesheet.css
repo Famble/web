@@ -371,4 +371,11 @@ article article img
 	font-size:1.5;
 	font-weight:bold;
 }
+.img
+{
+	width:80%;
+	height:auto;
 
+	position: relative;
+    margin: 0 10%;
+}
