@@ -129,8 +129,20 @@
         el.className = "hidden";
     }
 
-function enter(x){
+function enterSetBilde(x){
     if(event.keyCode == 13){
         setBilde(x);
+    }
+}
+
+function enterSlide(v){
+    if(event.keyCode == 13){
+        slide(v);
+    }
+}
+
+function enterToggleFAQ(answer){
+    if(event.keyCode == 13){
+        toggleFAQ(answer)
     }
 }

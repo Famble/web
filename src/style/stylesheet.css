@@ -212,6 +212,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
     height: 80%;
     background-color: white;
     opacity: 0.69;
+    filter: alpha(opacity=69);
     padding-top:10px;
     padding-left:10px;
     position: relative;
@@ -291,6 +292,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 
 #left_holder:hover, #right_holder:hover{
     opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 #right_holder
 {
