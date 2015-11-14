@@ -143,6 +143,6 @@ function enterSlide(v){
 
 function enterToggleFAQ(answer){
     if(event.keyCode == 13){
-        toggleFAQ(answer)
+        toggleFAQ(answer);
     }
 }
