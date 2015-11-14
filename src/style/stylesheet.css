@@ -242,7 +242,10 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
     padding: 0;
 }
 
-
+#etasjeListe{
+    padding-left: 2%;
+    width: 98%;
+}
 
 #etasjeListe a{
     color: black;
