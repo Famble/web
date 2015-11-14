@@ -18,30 +18,30 @@
     <body>
         
         <header >
-            <nav onMouseOut="hiddeMenu()">
+            <nav>
                 
-                <a href="../index.html"><img id="logo" src="../image/logo.gif" alt="Logo that looks like an arrow merged with an I, and link to home"></a>
+                <a href="../index.html" tabindex="1"><img id="logo" src="../image/logo.gif" alt="Logo that looks like an arrow merged with an I, and link to home"></a>
                 <ul id="top-nav" class="right">
 
-                    <li class="left"><a href="../index.html" >Home</a></li>
-                    <li class="left"><a href="../website/kartNoJS.html" class="hoverState" onMouseOver="showMenu()" >Maps</a></li> 
-                    <li class="left"><a href="contacts.html">Contacts</a></li>
+                    <li class="left"><a href="../index.html" tabindex="2">Home</a></li>
+                    <li class="left"><a href="../website/kartNoJS.html" tabindex="3" class="hoverState" onMouseOver="showMenu()" >Maps</a></li> 
+                    <li class="left"><a href="contacts.html" tabindex="4">Contacts</a></li>
 
                 </ul>
             </nav>
             
-            <nav id="kartmeny" class="skjul" onMouseOut="hiddeMenu()" >
+            <nav id="kartmeny" class="hidden" >
 				
 				<div id="etasjeListe">
-						<a onClick="setBilde(0), hideMenu()">Basement</a>
-						<a onClick="setBilde(1), hideMenu()">1st floor</a>
-						<a onClick="setBilde(2), hideMenu()">2nd floor</a>
-						<a onClick="setBilde(3), hideMenu()">3rd floor</a>
-						<a onClick="setBilde(4), hideMenu()">4th floor</a>
-						<a onClick="setBilde(5), hideMenu()">5th floor</a>
-						<a onClick="setBilde(6), hideMenu()">6th floor</a>
-						<a onClick="setBilde(7), hideMenu()">7th floor</a>
-						<a onClick="setBilde(8), hideMenu()">8th floor</a>
+						<a tabindex="5" onClick="setBilde(0), hideMenu()">Basement</a>
+						<a tabindex="6" onClick="setBilde(1), hideMenu()">1st floor</a>
+						<a tabindex="7" onClick="setBilde(2), hideMenu()">2nd floor</a>
+						<a tabindex="8" onClick="setBilde(3), hideMenu()">3rd floor</a>
+						<a tabindex="9" onClick="setBilde(4), hideMenu()">4th floor</a>
+						<a tabindex="10" onClick="setBilde(5), hideMenu()">5th floor</a>
+						<a tabindex="11" onClick="setBilde(6), hideMenu()">6th floor</a>
+						<a tabindex="12" onClick="setBilde(7), hideMenu()">7th floor</a>
+						<a tabindex="13" onClick="setBilde(8), hideMenu()">8th floor</a>
 				</div>
 			</nav>
         </header>  
@@ -56,11 +56,11 @@
         
             <div id="gallericontainer">
 
-                <div id="left_holder">
-                    <a><img onClick="slide(-1)" onkeypress="keyPressSlideLeft()" id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" ></a>
+                <div id="left_holder" tabindex=13>
+                    <a ><img onClick="slide(-1)" onkeypress="keyPressSlideLeft()" id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" ></a>
                 </div>
-                <div id="right_holder">
-                    <a>
+                <div id="right_holder" tabindex=14>
+                    <a >
                     <img onClick="slide(1)" onkeypress="keyPressSlideRight()" id="right" src="../image/rightArrow.png" alt="A button that takes you to the next picture" >
                         </a>
                 </div>
@@ -68,6 +68,10 @@
 				<img src="../image/kart/etasje0.gif" alt="Basement" longdesc="longdesc/basement_desc.html" id="img">
             </div>
 		
+            
+            
+            
+            
 			<article class="container">
 			
 				<h2>Info</h2>

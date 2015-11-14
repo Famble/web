@@ -46,3 +46,19 @@
 {
     float:none;
 }
+
+.visible{
+    overflow:visible;
+    height: auto;
+	transition-property:max-height;
+	transition-duration:0.5s;
+}
+
+.hidden
+{
+	overflow:hidden;
+	max-height:0;
+	transition-property:max-height;
+	transition-duration:0.2s;
+    display: none;
+}

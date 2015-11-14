@@ -64,12 +64,14 @@
 	function changeAltAndLongdesc(imgcount)
 	{
 		var image = document.getElementById("img");
+       
 		
 		switch(imgcount)
 		{
 			case 0:
 				image.alt = "Basement";
 				image.setAttribute("longdesc","longdesc/basement_desc.html");
+            
 				break;
 			case 1:
 				image.alt = "Floor 1";
@@ -124,5 +126,5 @@
     }
     function hideMenu(){
         var el = document.getElementById("kartmeny");
-        el.className = "skjul";
+        el.className = "hidden";
     }

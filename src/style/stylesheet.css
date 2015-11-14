@@ -295,6 +295,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 #right_holder
 {
 	right: 0;
+    
 }
 #left_holder
 {
@@ -356,6 +357,9 @@ article article img
 #h1MapRight{
     width: 30%;
     font-size: 1.5em;
+    color: orange;
+    text-shadow: 1px 1px 2px black;
+    
 }
 
 .inline
@@ -368,9 +372,3 @@ article article img
 	font-weight:bold;
 }
 
-.visible{
-    overflow:visible;
-    height: auto;
-	transition-property:max-height;
-	transition-duration:0.5s;
-}
