@@ -3,9 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Find it, on P35 </title>
+        <title>Find it, Maps </title>
         <link rel="stylesheet" type="text/css" href="../style/stylesheet.css" />
-        
+        <link rel="stylesheet" type="text/css" media="(max-width: 640px)" href="../style/mobile.css" />
+        <link rel="shortcut icon" href="../image/logo.gif"/>
+		
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
 		<!--<script type="text/javascript" src="../javascript/javascript.js"></script>-->
 
 		<!-- denne sida benytter ikke JS, hvis brukeren har JS så sendes de til sida med JS-->
@@ -18,44 +21,247 @@
     <body>
        
          <!-- <img class="left" id="logo" src="" alt="" /> -->
-		<header>
+		<header >
             <nav>
-                <ul id="top-nav">
+                
+                <a href="../index.html" tabindex="1"><img id="logo" src="../image/logo.gif" alt="Logo that looks like an arrow merged with an I, and link to home"></a>
+                <ul id="top-nav" class="right">
 
-                    <li id="li-logo" class="left">
-                        <a id="li-logo-link" href="../index.html" >
-                            <img id="logo" src="../image/logo.gif"/>
-                            <span class="right">Home</span>
-                        </a>
-                    </li>
-                    <li class="left"><a class="hoverState" href="kartNoJS.html">Kart</a></li>
-                    <li class="left"><a href="faq.html">Info/FAQ</a></li> 
-                    <li class="left"><a href="contacts.html">Contacts</a></li>
+                    <li class="left"><a href="../index.html" tabindex="2">Home</a></li>
+                    <li class="left"><a href="../website/kartNoJS.html" tabindex="3" class="hoverState" onMouseOver="showMenu()" >Maps</a></li> 
+                    <li class="left"><a href="contacts.html" tabindex="4">Contacts</a></li>
 
                 </ul>
-            </nav>  
+            </nav>
+            
+            <nav id="kartmeny" class="hidden" >
+				
+				<div id="etasjeListe">
+						<a href="#kart0" tabindex="5">Basement</a>
+						<a href="#kart1" tabindex="6">1st floor</a>
+						<a href="#kart2" tabindex="7">2nd floor</a>
+						<a href="#kart3" tabindex="8">3rd floor</a>
+						<a href="#kart4" tabindex="9">4th floor</a>
+						<a href="#kart5" tabindex="10">5th floor</a>
+						<a href="#kart6" tabindex="11">6th floor</a>
+						<a href="#kart7" tabindex="12">7th floor</a>
+						<a href="#kart8" tabindex="13">8th floor</a>
+				</div>
+			</nav>
         </header>  
-		
 		
         <section class="king-container">
 		
-			<aside id="kartmeny"><!--meny for etasjene, må utvides når vi får alle bildene-->
+			<article class="container" id="kart0">
+				<h1>Floor: Basement</h1>
+				<img class="img" src="../image/kart/etasje0.gif" alt="Map showing the basement of P35" longdesc="longdesc/basement_desc.html">
+			</article>
+			
+			<article class="container" id="kart1">
+				<h1>Floor: First</h1>
+				<img class="img" src="../image/kart/etasje1.gif" alt="Map showing the first floor of P35" longdesc="longdesc/floor1_desc.html">
+			</article>
+			
+			<article class="container" id="kart2">
+				<h1>Floor: Second</h1>
+				<img class="img" src="../image/kart/etasje2.gif" alt="Map showing the second floor of P35" longdesc="longdesc/floor2_desc.html">
+			</article>
+			
+			<article class="container" id="kart3">
+				<h1>Floor: Third</h1>
+				<img class="img" src="../image/kart/etasje3.gif" alt="Map showing the third floor of P35" longdesc="longdesc/floor3_desc.html">
+			</article>
+		
+			<article class="container" id="kart4">
+				<h1>Floor: Fourth</h1>
+				<img class="img" src="../image/kart/etasje4.gif" alt="Map showing the fourth floor of P35" longdesc="longdesc/floor4_desc.html">
+			</article>
+			
+			<article class="container" id="kart5">
+				<h1>Floor: Fifth</h1>
+				<img class="img" src="../image/kart/etasje5.gif" alt="Map showing the fifth floor of P35" longdesc="longdesc/floor5_desc.html">
+			</article>
+			
+			<article class="container" id="kart6">
+				<h1>Floor: Sixth</h1>
+				<img class="img" src="../image/kart/etasje6.gif" alt="Map showing the sixth floor of P35" longdesc="longdesc/floor6_desc.html">
+			</article>
+			
+			<article class="container" id="kart7">
+				<h1>Floor: Seventh</h1>
+				<img class="img" src="../image/kart/etasje7.gif" alt="Map showing the seventh floor of P35" longdesc="longdesc/floor7_desc.html">
+			</article>
+			
+			<article class="container" id="kart8">
+				<h1>Floor: Eight</h1>
+				<img class="img" src="../image/kart/etasje8.gif" alt="Map showing the eight floor of P35" longdesc="longdesc/floor8_desc.html">
+			</article>
+			
+			
+			<!-- info / faq -->
+			
+			<article class="container">
+			
+				<h2>Info</h2>
 				
-			</aside>
-		
-            <div id="gallericontainer">
-                
-            </div>
-		
+				<div class="spørsmål">
+					<h4>How do I switch floors on the map?</h4>
+				</div>
+				
+				<article class="vis" id="svar0">
+					<p>You can either use your arrow keys, click the submenu at the top or use the buttons.</p>
+				</article>
+				
+				<div class="spørsmål">
+					<h4>What do symbols on the map mean?</h4>
+				</div>
+				
+				<article class="vis" id="svar1">
+					<p><img src="../image/faq/emergency.png" alt="Icon for emergency exit" >
+					This one means Emergency Exit only.
+					We have marked some of the least intuitive Emergency Exits in the building. They may seem to be hidden, however once you have seen one of those, it will become easier for You to remember.
+					</p>
+					
+					<p>
+					<img src="../image/faq/male.png" alt="Icon for mens bathroom">
+					<img src="../image/faq/female.png" alt="Icon for womens bathroom">
+					These icons show men and womens bathrooms. Some bathrooms are separate and some are unisex. Main bathrooms for the students are marked on the map.
+					</p>
+					
+					<p>
+					<img src="../image/faq/handicap.gif" alt="Icon for easily accessible bathroom">
+					This is an easily accessible bathroom.
+					If for some reason You find it difficult to use bathrooms listed above, feel free to use the easy accessible bathroom. The symbol seems to us to be very unfortunate, because the target group is wider than people using a wheelchair, but we have not found anything better. 
+					</p>
+	
+				</article>
+				
+				<div class="spørsmål">
+					<h4>Why are rooms marked with letters? What do those letters mean?</h4>
+				</div>
+				
+				<article class="vis" id="svar2">
+					<p>As You have noticed we have rooms with different letters in front of the room number. Those letters are short for the street name, because each classroom is placed in different building area, which has a neighboring street.
+					</p>
+					<p>The aim with such marking is to motivate You to get better oriented not only in the school area, but also geographically. Our building, P35, is surrounded by 4 streets:
+					</p>
+					
+					<ul>
+						<li>Holbergs gate (Holbergs street)</li>
+						<li>Holbergs plass (Holbergs square)</li>
+						<li>Edvard Storms gate (Edvard Storm street)</li>
+						<li>Pilestredet (which means fast-narrow-street)</li>
+					</ul>
+					
+					<p>These streets are included in the rooms marking as two or three symbols or letters:
+					</p>
+					
+					<ul>
+						<li>PI means Pilestredet</li>
+						<li>PE means Edvard Storms gate, near Pilestredet</li>
+						<li>PS means Edvards Storms gate, near Holbergs gate</li>
+						<li>PH1 means Holbergs gate</li>
+						<li>PH2 means Holbergs plass</li>
+					</ul>
+					
+					<p>The “P” means “Paviljong” and it means: pavilion – an area inside the building (PI for Pilestredet is the only exeption). 
+					</p>
+					
+					<p>Let’s look on this closer in an example. You just made it to school and You are standing on the ground floor. If You are looking for example for a room PI-847, than You already know that it’s placed nearest Pilestredet. You are looking that way, toward the cantine. The numbers have also a hint. The first number tells You on which level* the room is placed. So number 8 means the eight level. We strongly recommend the elevator in that case. When You go out the elevator go right. The room is by the sitting area.
+					</p>
+					
+					<p>* In Norwegian system, all the people from East-Europe and other parts with different level-systems must remember that, the ground floor here equals to the first floor.
+					</p>
+					
+				</article>
+				
+				<div class="spørsmål">
+					<h4>How many levels are there in P35?</h4>
+				</div>
+				
+				<article class="vis" id="svar3">
+				There are actually 9 levels. Groundfloor(1 level) all the way to the 8th floor and the basement with gym, lockers and bathrooms.
+				</article>
+				
+				<div class="spørsmål">
+					<h4>Where can I find copy machines in the building?</h4>
+				</div>
+				
+				<article class="vis" id="svar4">
+				Copy machines are easy accessible in the whole building. 
+				
+				<ul>
+					<li>PI318 Learning centre and library</li>
+					<li>PI418 In the hallway</li>
+					<li>PH375 Learning centre and library</li>
+					<li>PH451</li>
+					<li>PH571</li>
+					<li>PH610</li>
+					<li>PH810</li>
+				</ul>
+				
+				<p>Information taken from: <a href="https://student.hioa.no/en/skriveroversikt-pilestredet">student.hioa.no/en/skriveroversikt-pilestredet </a>
+				</p>
+				</article>
+				
+				<!-- marker -->
+				
+				<div class="spørsmål">
+					<h4>How about a meal or getting something to drink?</h4>
+				</div>
+				
+				<article class="vis" id="svar5">
+					Water dispensers are available on the floor: , , and .
+					
+					<p>Cantine on the Ground level offers warm meals and vegetable salat, healthy dinner in other words. If You exit the P35 with the main entrance You’ll see Deli’de’luca on your left in the same building and 7-Elevelen on the opposite side of the street. The building is also placed not so far from a grocery store placed neat the PP35 building 
+					Look it up at <a href="http://www.hioa.no/Om-HiOA/Kart-og-veibeskrivelser">hioa.no/Om-HiOA/Kart-og-veibeskrivelser</a>
+					</p>
+
+				</article>
+				
+				<div class="spørsmål">
+					<h4>How do I find out more about P35?</h4>
+				</div>
+				
+				<article class="vis" id="svar6">
+				If You have problems with finding Teacher room or wondering about other administration related issues, You can always ask for help at the Info desk on the Ground floor.
+				
+				<p>In case of problems connecting to the Internet, logging onto Fronter or Your studnet account seek help and the IT support next to the Info desk.
+				</p>
+				
+				<p>There is a lot of useful information available, for example at <a href="http://www.hioa.no">hioa.no</a> or the website of the Teknologi, kunst og design department, at <a href="http://www.hioa.no/tkd">hioa.no/tkd</a>.
+				</p>
+				</article>
+				
+				<div class="spørsmål">
+					<h4>Where can I study?</h4>
+				</div>
+				
+				<article class="vis" id="svar7">
+				.
+				</article>
+				
+				<div class="spørsmål">
+					<h4>Other websites with maps and info about P35</h4>
+				</div>
+				
+				<article class="vis" id="svar8">
+					<ul>
+						<li><a href="http://www.hioa.no/Om-HiOA/Kart-og-veibeskrivelser/Pilestredet-35-P35">hioa.no/Om-HiOA/Kart-og-veibeskrivelser/Pilestredet-35-P35</a>
+						<li><a href="http://www.hioa.no/Om-HiOA/Fakultet-for-teknologi-kunst-og-design-TKD">hioa.no/Om-HiOA/Fakultet-for-teknologi-kunst-og-design-TKD</a>
+						<li><a href="http://www.hioa.no/LSB/Om-bibliotekene/node_3862">hioa.no/LSB/Om-bibliotekene/node_3862</a>
+						<li><a href="http://www.hioa.no/Om-HiOA/Kart-og-veibeskrivelser">hioa.no/Om-HiOA/Kart-og-veibeskrivelser</a>
+						<li><a href="https://student.hioa.no/en/skriveroversikt-pilestredet">hioa.no/en/skriveroversikt-pilestredet</a>
+						<li><a href="https://goo.gl/maps/huNENWAcqwD2">goo.gl/maps/huNENWAcqwD2</a>
+					</ul>
+
+				</article>
+				
+			</article>
+			
         </section>
+		
+		
         
-            <footer>
-                <ul>
-                    <li>one</li>
-                    <li>one</li>
-                    <li>one</li>
-                    <li>one</li>
-                </ul>
-            </footer>
     </body>
 </html>
