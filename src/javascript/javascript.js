@@ -28,7 +28,7 @@
 		imagecount = total;
 		}
 		
-		changeAlt(imagecount);
+		changeAltAndLongdesc(imagecount);
 		changeFloor(imagecount);
 		
 		Image.src="../image/kart/etasje" + imagecount + ".gif";
@@ -39,7 +39,7 @@
 	{
 		var Image = document.getElementById("img");
 		
-		changeAlt(x);
+		changeAltAndLongdesc(x);
 		changeFloor(x);
 		imagecount = x;
         
@@ -61,7 +61,7 @@
 	
 	
 	/* funksjon som endrer alt-taggen til bildet */
-	function changeAlt(imgcount)
+	function changeAltAndLongdesc(imgcount)
 	{
 		var image = document.getElementById("img");
 		
@@ -69,30 +69,39 @@
 		{
 			case 0:
 				image.alt = "Basement";
+				image.setAttribute("longdesc","longdesc/basement_desc.html");
 				break;
 			case 1:
 				image.alt = "Floor 1";
+				image.setAttribute("longdesc","longdesc/floor1_desc.html");
 				break;
 			case 2:
 				image.alt = "Floor 2";
+				image.setAttribute("longdesc","longdesc/floor2_desc.html");
 				break;
 			case 3:
 				image.alt = "Floor 3";
+				image.setAttribute("longdesc","longdesc/floor3_desc.html");
 				break;
 			case 4:
 				image.alt = "Floor 4";
+				image.setAttribute("longdesc","longdesc/floor4_desc.html");
 				break;
 			case 5:
 				image.alt = "Floor 5";
+				image.setAttribute("longdesc","longdesc/floor5_desc.html");
 				break;
 			case 6:
 				image.alt = "Floor 6";
+				image.setAttribute("longdesc","longdesc/floor6_desc.html");
 				break;
 			case 7:
 				image.alt = "Floor 7";
+				image.setAttribute("longdesc","longdesc/floor7_desc.html");
 				break;
 			case 8:
 				image.alt = "Floor 8";
+				image.setAttribute("longdesc","longdesc/floor8_desc.html");
 				break;
 		}
 	}

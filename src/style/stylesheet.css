@@ -287,8 +287,6 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	width:10%;
     top: 40%;
     position: absolute;
-	border-style:dotted;
-	border-width:1px;
 }
 
 #left_holder:hover, #right_holder:hover{
