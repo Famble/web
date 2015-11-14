@@ -146,7 +146,9 @@ h2
     top:-15px;
 }
 #logo:hover{
+    drop-shadow(0 0 2px black);
     -webkit-filter: drop-shadow(0 0 2px black);
+    -moz-filter: drop-shadow(0 0 2px black);
 }
 
 #li-logo-link{
@@ -270,8 +272,6 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	width:100%;
 	height:auto;
     position: relative;
-	border-style:dotted;
-	border-width:1px;
     background-color:#fcfcfc; 
 }
 #img

@@ -33,7 +33,7 @@
             <nav id="kartmeny" class="hidden" >
 				
 				<div id="etasjeListe">
-						<a tabindex="0" onClick="setBilde(0), hideMenu()">Basement</a>
+						<a tabindex="0" onClick="setBilde(0), hideMenu()" onkeydown="enter(0)">Basement</a>
 						<a tabindex="0" onClick="setBilde(1), hideMenu()">1st floor</a>
 						<a tabindex="0" onClick="setBilde(2), hideMenu()">2nd floor</a>
 						<a tabindex="0" onClick="setBilde(3), hideMenu()">3rd floor</a>
@@ -59,11 +59,11 @@
                 <img src="../image/kart/etasje0.gif" alt="Basement" longdesc="longdesc/basement_desc.html" id="img" tabindex="0">
                 
                 <div id="left_holder" tabindex="0">
-                    <a ><img onClick="slide(-1)" onkeypress="keyPressSlideLeft()" id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" ></a>
+                    <a ><img onClick="slide(-1)" id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" ></a>
                 </div>
                 <div id="right_holder" tabindex="0">
                     <a >
-                    <img onClick="slide(1)" onkeypress="keyPressSlideRight()" id="right" src="../image/rightArrow.png" alt="A button that takes you to the next picture" >
+                    <img onClick="slide(1)" id="right" src="../image/rightArrow.png" alt="A button that takes you to the next picture" >
                         </a>
                 </div>
                 

@@ -128,3 +128,9 @@
         var el = document.getElementById("kartmeny");
         el.className = "hidden";
     }
+
+function enter(x){
+    if(event.keyCode == 13){
+        setBilde(x);
+    }
+}
