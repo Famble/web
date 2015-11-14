@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Find it, Maps </title>
         <link rel="stylesheet" type="text/css" href="../style/stylesheet.css" />
-        <link rel="stylesheet" type="text/css" media="(max-width: 720px)" href="../style/mobile.css" />
+        <link rel="stylesheet" type="text/css" media="(max-width: 640px)" href="../style/mobile.css" />
         <link rel="shortcut icon" href="../image/logo.gif"/>
         
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
@@ -17,32 +17,31 @@
     
     <body>
         
-         <!-- <img class="left" id="logo" src="" alt="" /> -->
-        <header>
-            <nav>
+        <header >
+            <nav onMouseOut="hiddeMenu()">
                 
                 <a href="../index.html"><img id="logo" src="../image/logo.gif" alt="Logo that looks like an arrow merged with an I, and link to home"></a>
                 <ul id="top-nav" class="right">
 
                     <li class="left"><a href="../index.html" >Home</a></li>
-                    <li class="left mapState"><a class="hoverState" href="kartNoJS.html">Maps</a></li> 
+                    <li class="left"><a href="../website/kartNoJS.html" class="hoverState" onMouseOver="showMenu()" >Maps</a></li> 
                     <li class="left"><a href="contacts.html">Contacts</a></li>
 
                 </ul>
             </nav>
             
-            <nav id="kartmeny">
+            <nav id="kartmeny" class="skjul" onMouseOut="hiddeMenu()" >
 				
 				<div id="etasjeListe">
-						<a onClick="setBilde(0)">Basement</a>
-						<a onClick="setBilde(1)">1st floor</a>
-						<a onClick="setBilde(2)">2nd floor</a>
-						<a onClick="setBilde(3)">3rd floor</a>
-						<a onClick="setBilde(4)">4th floor</a>
-						<a onClick="setBilde(5)">5th floor</a>
-						<a onClick="setBilde(6)">6th floor</a>
-						<a onClick="setBilde(7)">7th floor</a>
-						<a onClick="setBilde(8)">8th floor</a>
+						<a onClick="setBilde(0), hideMenu()">Basement</a>
+						<a onClick="setBilde(1), hideMenu()">1st floor</a>
+						<a onClick="setBilde(2), hideMenu()">2nd floor</a>
+						<a onClick="setBilde(3), hideMenu()">3rd floor</a>
+						<a onClick="setBilde(4), hideMenu()">4th floor</a>
+						<a onClick="setBilde(5), hideMenu()">5th floor</a>
+						<a onClick="setBilde(6), hideMenu()">6th floor</a>
+						<a onClick="setBilde(7), hideMenu()">7th floor</a>
+						<a onClick="setBilde(8), hideMenu()">8th floor</a>
 				</div>
 			</nav>
         </header>  
@@ -54,12 +53,8 @@
             <div id="h1MapRight">
                 <div class="inline"> Floor:</div> <div class="inline" id="floor"> Basement </div>
             </div>
-            
-     
-			
-		
+        
             <div id="gallericontainer">
-                
 
                 <div id="left_holder">
                     <a><img onClick="slide(-1)" onkeypress="keyPressSlideLeft()" id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" ></a>

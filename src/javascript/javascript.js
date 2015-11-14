@@ -105,3 +105,15 @@
 		document.getElementById(answer).classList.toggle("skjul");
 	}
 
+
+   function showMenu(){
+        var el = document.getElementById("kartmeny");
+            if(el.className == "visible")
+                hideMenu();
+            else
+                el.className="visible";
+    }
+    function hideMenu(){
+        var el = document.getElementById("kartmeny");
+        el.className = "skjul";
+    }

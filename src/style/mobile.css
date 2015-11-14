@@ -25,6 +25,17 @@
     width: 50% !important;
 }
 
+#kartmeny{
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+#etasjeListe a{
+    width: 100% !important;
+    display: grid !important;
+    font-size: 1.5em;
+}
+
 #gallericontainer{
 	width:100%;
 	display:block;
