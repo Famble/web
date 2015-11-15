@@ -29,13 +29,12 @@ nav{
 
 footer{
     width: 100%;
-    background-color: grey;
+    background-color: #d4d4d4;
     padding-bottom: 1%;
+    padding-left: 3%;
 }
-
-footer ul li {
-    display: inline-block;
-    padding-right: 5%;
+footer a{
+    coolor: #0000c3;
 }
 
 /*Tags---------------------------------*/
@@ -330,6 +329,14 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
     display: none;
 }
 
+#openAll{
+    text-align: center
+}
+
+#closeAll{
+    text-align: center
+}
+
 a
 {
 	cursor:pointer;
@@ -367,7 +374,7 @@ article article img
     text-align: center;
     font-size: 1.5em;
     color: orange;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 2px 2px black;
     
 }
 

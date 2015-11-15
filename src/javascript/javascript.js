@@ -114,10 +114,17 @@
 	/* åpner og lukker svar i FAQ-en */
 	function toggleFAQ(answer)
 	{
-		document.getElementById(answer).classList.toggle("vis");
-		document.getElementById(answer).classList.toggle("skjul");
+		toggleVis(answer);
+		toggleSkjul(answer);
 	}
 
+function toggleVis(answer){
+    document.getElementById(answer).classList.toggle("vis");
+}
+
+function toggleSkjul(answer){
+    document.getElementById(answer).classList.toggle("skjul");
+}
 
    function showMenu(){
         var el = document.getElementById("kartmeny");
@@ -151,3 +158,14 @@ function enterToggleFAQ(answer){
     }
 }
 
+function openAllSvar(){
+    toggleVis('svar0');
+    toggleVis('svar1');
+    toggleVis('svar2');
+    toggleVis('svar3');
+    toggleVis('svar4');
+    toggleVis('svar5');
+    toggleVis('svar6');
+    toggleVis('svar7');
+    toggleVis('svar8');
+}
