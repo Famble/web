@@ -17,7 +17,6 @@ header{
 }
 
 nav{
-/*    background-color: #92DCE0;*/
     background-color: #fcfcfc;
     width: inherit;
     height: 50px;
@@ -25,6 +24,14 @@ nav{
     margin: 0 auto;
     z-index: 1;
     border-bottom: 1px solid black;
+}
+
+article article img
+{
+	float:left;
+	margin-right:10px;
+	height:3em;
+	width:3em;
 }
 
 footer{
@@ -39,6 +46,13 @@ footer span{
     float: right;
 }
 
+a
+{
+	cursor:pointer;
+}
+
+
+
 /*Tags---------------------------------*/
 
 
@@ -48,7 +62,12 @@ h1{
 
 }
 
-/*Classes and Id's------------------------------*/
+h4
+{
+	display:inline;
+}
+
+/*Navigaion bar------------------------------*/
 
 
 
@@ -98,145 +117,13 @@ h1{
     transition: all 0.2s ease;
 }
 
-#li-logo{
-    width: 30% !important;
-    margin-left: -20px;
-/*
-    padding-left: -10% !important;
-*/
-}
 
 #top-nav .hoverState{
     border-bottom: solid 2px;
     font-weight: 500;
     letter-spacing: 1px;
 }
-
-.mapState{
-    border-bottom: solid 1px #fcfcfc;
-    z-index: 1;
-}
-    
-.left{
-    float: left;
-    width: 50%;
-    height: inherit;
-    display: inline-block;
-    
-    
-}
-.right{
-    float: right;
-    width: 80%;
-    height: inherit;
-    display: inline-block;
-}
-
-#logo{
-    width: 50px;
-    height: 50px;
-    float: left;
-/*    margin-left: -50px;*/
-    padding: 0;
-    top:-15px;
-}
-#logo:hover{
-    filter:drop-shadow(0 0 2px black);
-    -webkit-filter: drop-shadow(0 0 2px black);
-    -moz-filter: drop-shadow(0 0 2px black);
-}
-
-
-
-#li-logo-link{
-    padding-left: 0 !important;
-}
-
-.king-container{	
-    width: 85%;
-    margin: 0 auto;
-    margin-bottom: 60px;
-    min-height: 950px ;
-    height: auto;
-	position: relative;
-}
-#h1Map{
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5em;
-    color: orange;
-    text-shadow: 1px 2px 2px black;
-    
-}
-
-#h1Map:after{
-    
-}
-
-/*Tekst container her*/
-.container{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 5%; 
-    width: 90%;
-    min-height: 220px;
-    background-color: #fcfcfc;
-    color: #3d3d3d;
-    box-shadow: 1px 1px 1px #888888;
-}
-
-
-
-
-.liten_container{
-	height:10%;
-	margin-bottom:5%;
-    color: black;
-}
-.faq_bilde{
-	float:right;
-	margin-left:3%;
-}
-
-/*Backgrun på pre content*/
-#background-img{
-
-    width: 100%;
-    height: 350px;
-background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.jpg);
-    background-size:  100% 100%;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-/*text på pre content*/
-#introtext{
-    font-size: 20px;
-    width: 30%;
-    height: 80%;
-    background-color: white;
-    opacity: 0.69;
-    filter: alpha(opacity=69);
-    padding-top:10px;
-    padding-left:10px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-/*    margin: 2%;*/
-}
-#introtext-p{
-    
-    color: black;
-    font-size: 1.25em;
-    
-}
-
-
-
-
-/*css for kartene*/
-
+/* Nav bar for kartene*/
 #kartmeny
 {
 	width:100%;
@@ -274,6 +161,141 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
+
+/* Classes and Id's------------------*/
+.mapState{
+    border-bottom: solid 1px #fcfcfc;
+    z-index: 1;
+}
+    
+.left{
+    float: left;
+    width: 50%;
+    height: inherit;
+    display: inline-block;
+    
+    
+}
+.right{
+    float: right;
+    width: 80%;
+    height: inherit;
+    display: inline-block;
+}
+
+
+
+/*----Container--------------*/
+.king-container{	
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    min-height: 950px ;
+    height: auto;
+	position: relative;
+}
+
+/*Tekst container her*/
+
+#introtext{
+    font-size: 20px;
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    opacity: 0.69;
+    filter: alpha(opacity=69);
+    padding-top:10px;
+    padding-left:10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#introtext-p{
+    
+    color: black;
+    font-size: 1.25em;
+    
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 5%; 
+    width: 90%;
+    min-height: 220px;
+    background-color: #fcfcfc;
+    color: #3d3d3d;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.liten_container{
+	height:10%;
+	margin-bottom:5%;
+    color: black;
+}
+
+#h1Map{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: orange;
+    text-shadow: 1px 2px 2px black;
+    
+}
+
+/*-----Container for Image--------*/
+.faq_bilde{
+	float:right;
+	margin-left:3%;
+}
+
+
+#logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+/*    margin-left: -50px;*/
+    padding: 0;
+    top:-15px;
+}
+#logo:hover{
+    filter:drop-shadow(0 0 2px black);
+    -webkit-filter: drop-shadow(0 0 2px black);
+    -moz-filter: drop-shadow(0 0 2px black);
+}
+
+.img
+{
+	width:80%;
+	height:auto;
+
+	position: relative;
+    margin: 0 10%;
+}
+
+#img
+{
+	width:80%;
+	height:auto;
+
+	position: relative;
+    margin: 0 10%;
+}
+
+/*Backgrun på pre content*/
+#background-img{
+
+    width: 100%;
+    height: 350px;
+background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.jpg);
+    background-size:  100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/*------------ Containers for maps and its buttons----*/
+
 #gallericontainer
 {
     margin-left: auto;
@@ -284,14 +306,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
     position: relative;
     background-color:#fcfcfc; 
 }
-#img
-{
-	width:80%;
-	height:auto;
 
-	position: relative;
-    margin: 0 10%;
-}
 #left_holder, #right_holder{
 	height:auto;
 	width:10%;
@@ -305,7 +320,6 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
         filter: alpha(opacity=80);
     }
 }
-
 
 #right_holder
 {
@@ -321,6 +335,12 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
 	width:100%;
 	cursor: pointer;
 }
+
+
+
+
+
+/*-----Css for element toggel-----------*/
 .vis{
 	overflow:hidden;
 	max-height:100em;
@@ -336,14 +356,8 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
     display: none;
 }
 
-a
-{
-	cursor:pointer;
-}
-h4
-{
-	display:inline;
-}
+
+
 .spørsmål
 {
 	height:auto;
@@ -359,16 +373,12 @@ h4
 {
 	margin-bottom:10px;
 }
-article article img
-{
-	float:left;
-	margin-right:10px;
-	height:3em;
-	width:3em;
-}
 
 
 
+
+
+/*----------Other-----------*/
 .inline
 {
 	display:inline;
@@ -378,20 +388,7 @@ article article img
 	font-size:1.5em;
 	font-weight:bold;
 }
-.img
-{
-	width:80%;
-	height:auto;
 
-	position: relative;
-    margin: 0 10%;
-}
-
-@media screen and (min-width: 720px){
-    .king-container{
-        width: 720px !important;
-    }
-}
 .floatRight
 {
 	float:right;
@@ -400,7 +397,10 @@ article article img
 {
 	display:inline;
 }
-footer span
-{
-	float:right;
+
+
+@media screen and (min-width: 720px){
+    .king-container{
+        width: 720px !important;
+    }
 }
