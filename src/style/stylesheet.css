@@ -392,7 +392,7 @@ article article img
         width: 720px !important;
     }
 }
-#floatRight
+.floatRight
 {
 	float:right;
 }
