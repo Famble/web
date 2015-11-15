@@ -398,3 +398,7 @@ article article img
 {
 	display:inline;
 }
+footer span
+{
+	float:right;
+}
