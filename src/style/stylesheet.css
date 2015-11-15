@@ -35,6 +35,9 @@ footer{
 footer a{
     color: #0000c3;
 }
+footer span{
+    float: right;
+}
 
 /*Tags---------------------------------*/
 
