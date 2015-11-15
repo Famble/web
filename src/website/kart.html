@@ -20,11 +20,15 @@
         <header >
             <nav>
                 
-                <a href="../index.html" tabindex="0"><img id="logo" src="../image/logo.gif" alt="Logo that looks like an arrow merged with an I, and link to home"></a>
+                <a href="../index.html" tabindex="0">
+                    <img id="logo" src="../image/logo.gif"alt="Logo that looks like an arrow merged with an I, and link to home">
+                </a>
                 <ul id="top-nav" class="right">
 
                     <li class="left"><a href="../index.html" tabindex="0">Home</a></li>
-                    <li class="left"><a href="../website/kartNoJS.html" tabindex="0" class="hoverState" onMouseOver="showMenu()" >Maps</a></li> 
+                    <li class="left">
+                        <a href="../website/kartNoJS.html" tabindex="0" class="hoverState" onMouseOver="showMenu()" >Maps</a>
+                    </li> 
                     <li class="left"><a href="contacts.html" tabindex="0">Contact</a></li>
 
                 </ul>
@@ -57,17 +61,20 @@
         
             
             <div id="gallericontainer">
-                <img src="../image/kart/etasje0.gif" alt="Basement" longdesc="longdesc/basement_desc.html" id="img" tabindex="0">
+                <img src="../image/kart/etasje0.gif" alt="Basement" 
+                     longdesc="longdesc/basement_desc.html" id="img" tabindex="0">
                 
                 <div id="left_holder" >
                     <a tabindex="0" onkeydown="enterSlide(-1)">
-                        <img onClick="slide(-1)"  id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" >
+                        <img onClick="slide(-1)"  id="left" src="../image/leftArrow.png" 
+                             alt="A button that takes you to the previous picture" >
                     </a>
                 </div>
                 
                 <div id="right_holder">
                     <a tabindex="0" onkeydown="enterSlide(-1)">
-                        <img onClick="slide(1)" id="right" src="../image/rightArrow.png" alt="A button that takes you to the next picture" >
+                        <img onClick="slide(1)" id="right" src="../image/rightArrow.png"
+                             alt="A button that takes you to the next picture" >
                     </a>
                 </div>
             </div>
@@ -78,7 +85,9 @@
 				<h2>Info</h2>
 
 				<div class="spørsmål" >
-					<a onClick="toggleFAQ('svar0')" onkeydown="enterToggleFAQ('svar0')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow" ><h4>How do I switch floors on the map?</h4></a>
+					<a onClick="toggleFAQ('svar0')" onkeydown="enterToggleFAQ('svar0')" tabindex="0">
+                        <img src="../image/down_arrow.png" class="downarrow" alt="A down arrow" >
+                        <h4>How do I switch floors on the map?</h4></a>
 				</div>
 				
 				<article class="skjul" id="svar0" tabindex="0">
@@ -86,26 +95,36 @@
 				</article>
 				
 				<div class="spørsmål" >
-					<a onClick="toggleFAQ('svar1')" onkeydown="enterToggleFAQ('svar1')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow"><h4>What do symbols on the map mean?</h4></a>
+					<a onClick="toggleFAQ('svar1')" onkeydown="enterToggleFAQ('svar1')" tabindex="0">
+                        <img src="../image/down_arrow.png" class="downarrow" alt="A down arrow">
+                        <h4>What do symbols on the map mean?</h4></a>
 				</div>
 				
 				<article class="skjul" id="svar1" tabindex="0">
 					<p>
                         <img src="../image/faq/emergency.png" alt="icon for emergency exit" >
-					This one means Emergency Exit only.
-					We have marked some of the least intuitive Emergency Exits in the building. They may seem to be hidden, however once you have seen one of those, it will become easier for you to remember.
+                        This one means Emergency Exit only.
+                        We have marked some of the least intuitive Emergency Exits in the building.
+                        They may seem to be hidden, however once you have seen one of those,
+                        it will become easier for you to remember.
 					</p>
 					
 					<p>
                         <img src="../image/faq/male.png" alt="icon for mens bathroom">
                         <img src="../image/faq/female.png" alt="icon for womens bathroom">
-					These icons show men and womens bathrooms. Some bathrooms are separate and some are unisex. Main bathrooms for the students are marked on the map.
+                        These icons show men and womens bathrooms.
+                        Some bathrooms are separate and some are unisex.
+                        Main bathrooms for the students are marked on the map.
 					</p>
 					
 					<p>
 					   <img src="../image/faq/handicap.gif" alt="icon for easily accessible bathroom">
-					This is an easily accessible bathroom.
-					If for some reason you find it difficult to use bathrooms listed above, feel free to use the easy accessible bathroom. The symbol seems to us to be very unfortunate, because the target group is wider than people using a wheelchair, but we have not found anything better. 
+                        This is an easily accessible bathroom.
+                        If for some reason you find it difficult to use bathrooms listed above,
+                        feel free to use the easy accessible bathroom.
+                        The symbol seems to us to be very unfortunate,
+                        because the target group is wider than people using a wheelchair, 
+                        but we have not found anything better. 
 					</p>
 	
 				</article>
@@ -120,9 +139,11 @@
 				
                 
 				<article class="skjul" id="svar2" tabindex="0">
-					<p>As you have noticed we have rooms with different letters in front of the room number. 
+					<p>
+                        As you have noticed we have rooms with different letters in front of the room number. 
                         Those letters are short for the street name,
-                        because each classroom is placed in different building area, which has a neighboring street.
+                        because each classroom is placed in different building area,
+                        which has a neighboring street.
 					</p>
                     
 					<p>
@@ -137,7 +158,9 @@
 						<li>Pilestredet (which means fast-narrow-street)</li>
 					</ul>
 					
-					<p>These streets are included in the rooms marking as two or three symbols or letters:
+					<p>
+                        These streets are included in the rooms,
+                        marked as two or three symbols or letters:
 					</p>
 					
 					<ul>
@@ -148,96 +171,164 @@
 						<li>PH2 means Holbergs plass</li>
 					</ul>
 					
-					<p>The “P” means “Paviljong” and it means: pavilion – an area inside the building (PI for Pilestredet is the only exeption). 
+					<p>
+                        The “P” means “Paviljong” and it means:
+                        pavilion – an area inside the building
+                        (PI for Pilestredet is the only exeption). 
 					</p>
 					
-					<p>Let’s look on this closer in an example. You just made it to school and you are standing on the ground floor. If you are looking for example for a room PI-847, than you already know that it’s placed nearest Pilestredet. You are looking that way, toward the cantine. The numbers have also a hint. The first number tells you on which level* the room is placed. So number 8 means the eight level. We strongly recommend the elevator in that case. When you go out the elevator go right. The room is by the sitting area.
+					<p>
+                        Let’s look on this closer in an example. 
+                        You just made it to school and you are standing on the ground floor.
+                        If you are looking for example for a room PI-847, 
+                        than you already know that it’s placed nearest Pilestredet. 
+                        You are looking that way, toward the cantine.
+                        The numbers have also a hint. The first number tells you on which level* the room is placed.
+                        So number 8 means the eight level. We strongly recommend the elevator in that case.
+                        When you go out the elevator go right. The room is by the sitting area.
 					</p>
 					
-					<p>* In Norwegian system, all the people from East-Europe and other parts with different level-systems must remember that, the ground floor here equals to the first floor.
+					<p>
+                        * In Norwegian system, all the people from East-Europe and other
+                        parts with different level-systems must remember that, 
+                        the ground floor here equals to the first floor.
 					</p>
-					
 				</article>
 				
+                
 				<div class="spørsmål" >
-					<a onClick="toggleFAQ('svar3')" onkeydown="enterToggleFAQ('svar3')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow"><h4>How many levels are there in P35?</h4></a>
+					<a onClick="toggleFAQ('svar3')" onkeydown="enterToggleFAQ('svar3')" 
+                       tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow">
+                        <h4>How many levels are there in P35?</h4></a>
 				</div>
 				
 				<article class="skjul" id="svar3" tabindex="0">
-				There are actually 9 levels. Groundfloor(1 level) all the way to the 8th floor and the basement with gym, lockers and bathrooms.
+				    There are actually 9 levels. Groundfloor(1 level) all the way 
+                    to the 8th floor and the basement with gym, lockers and bathrooms.
 				</article>
 				
 				<div class="spørsmål" >
-					<a onClick="toggleFAQ('svar4')" onkeydown="enterToggleFAQ('svar4')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow"><h4>Where can I find copy machines in the building?</h4></a>
+					<a onClick="toggleFAQ('svar4')" onkeydown="enterToggleFAQ('svar4')" tabindex="0">
+                        <img src="../image/down_arrow.png" class="downarrow" alt="A down arrow">
+                        <h4>Where can I find copy machines in the building?</h4></a>
 				</div>
 				
 				<article class="skjul" id="svar4" tabindex="0">
-				Copy machines are easy accessible in the whole building. 
+				    Copy machines are easy accessible in the whole building. 
 				
-				<ul>
-					<li>PI318 Learning centre and library</li>
-					<li>PI418 In the hallway</li>
-					<li>PH375 Learning centre and library</li>
-					<li>PH451</li>
-					<li>PH571</li>
-					<li>PH610</li>
-					<li>PH810</li>
-				</ul>
+                    <ul>
+                        <li>PI318 Learning centre and library</li>
+                        <li>PI418 In the hallway</li>
+                        <li>PH375 Learning centre and library</li>
+                        <li>PH451</li>
+                        <li>PH571</li>
+                        <li>PH610</li>
+                        <li>PH810</li>
+                    </ul>
 				
-				<p>Information taken from: <a href="https://student.hioa.no/en/skriveroversikt-pilestredet">student.hioa.no/en/skriveroversikt-pilestredet </a>
+				<p>
+                    Information taken from: 
+                    <a href="https://student.hioa.no/en/skriveroversikt-pilestredet">
+                        student.hioa.no/en/skriveroversikt-pilestredet 
+                    </a>
 				</p>
+                    
 				</article>
 				
 				<div class="spørsmål" >
-					<a onClick="toggleFAQ('svar5')" onkeydown="enterToggleFAQ('svar5')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow"><h4>Where can I get a meal or something to drink?</h4></a>
+					<a onClick="toggleFAQ('svar5')" onkeydown="enterToggleFAQ('svar5')" tabindex="0">
+                        <img src="../image/down_arrow.png" class="downarrow" alt="A down arrow">
+                        <h4>Where can I get a meal or something to drink?</h4></a>
 				</div>
 				
 				<article class="skjul" id="svar5" tabindex="0">
-				Water dispensers are available on the floor: 3 (Læringssenteret), 5 (near classrooms), and 8(near classrooms). Their placement may vary however, to comply with the students’ needs.
+				    Water dispensers are available on the floor:
+                    3 (Læringssenteret), 5 (near classrooms), and 8(near classrooms).
+                    Their placement may vary however, to comply with the students’ needs.
 					
-					<p>The cafeteria on the Ground level offers warm meals and vegetable salad, healthy dinner in other words. Exiting the main entrance of P35 you’ll see Deli de luca on your left in the same building and 7-Eleven on the opposite side of the street.
+					<p>
+                        The cafeteria on the Ground level offers warm meals and vegetable salad,
+                        healthy dinner in other words. Exiting the main entrance of P35 you’ll see Deli de luca
+                        on your left in the same building and 7-Eleven on the opposite side of the street.
 					</p>
 
 				</article>
 				
 				<div class="spørsmål">
-					<a onClick="toggleFAQ('svar6')" onkeydown="enterToggleFAQ('svar6')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow"><h4>How do I find out more about P35?</h4></a>
+					<a onClick="toggleFAQ('svar6')" onkeydown="enterToggleFAQ('svar6')" tabindex="0">
+                        <img src="../image/down_arrow.png" class="downarrow" alt="A down arrow">
+                        <h4>How do I find out more about P35?</h4></a>
 				</div>
 				
 				<article class="skjul" id="svar6" tabindex="0">
-				If you have problems with finding Teacher room or wondering about other administration related issues, you can always ask for help at the Info desk on the Ground floor.
-				
-				<p>In case of problems connecting to the Internet, logging onto Fronter or Your studnet account seek help and the IT support next to the Info desk.
-				</p>
-				
-				<p>There is a lot of useful information available, for example at <a href="http://www.hioa.no">hioa.no</a> or the website of the Teknologi, kunst og design department, at <a href="http://www.hioa.no/tkd">hioa.no/tkd</a>.
-				</p>
+                        If you have problems with finding Teacher room or
+                        wondering about other administration related issues, 
+                        you can always ask for help at the Info desk on the Ground floor.
+
+                    <p>
+                        In case of problems connecting to the Internet, 
+                        logging onto Fronter or Your studnet account seek help and the IT support next to the Info desk.
+                    </p>
+
+                    <p>
+                        There is a lot of useful information available, 
+                        for example at <a href="http://www.hioa.no">hioa.no</a> 
+                        or the website of the Teknologi, kunst og design department,
+                        at <a href="http://www.hioa.no/tkd">hioa.no/tkd</a>.
+                    </p>
 				</article>
 				
 				<div class="spørsmål">
-					<a onClick="toggleFAQ('svar7')" onkeydown="enterToggleFAQ('svar7')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow"><h4>Where can I study?</h4></a>
+					<a onClick="toggleFAQ('svar7')" onkeydown="enterToggleFAQ('svar7')" tabindex="0">
+                        <img src="../image/down_arrow.png" class="downarrow" alt="A down arrow">
+                        <h4>Where can I study?</h4></a>
 				</div>
 				
 				<article class="skjul" id="svar7" tabindex="0">
-				There are plenty of sitting areas all around the building. You can use the sitting area near the cafeteria, sitting areas on every floor near classrooms (on the right after you exit the elevator). There are also specially designed places, such as: Læringssenteret (on the 3rd floor) and Datatorget (on the 4th floor).
+				    There are plenty of sitting areas all around the building.
+                    You can use the sitting area near the cafeteria, sitting areas on every
+                    floor near classrooms (on the right after you exit the elevator).
+                    There are also specially designed places, such as: 
+                    Læringssenteret (on the 3rd floor) and Datatorget (on the 4th floor).
 				
-				<p>The school is open from 6AM to 10PM, remember to have your student ID card with you to have access to the entrance door.
+				<p>
+                    The school is open from 6AM to 10PM,
+                    remember to have your student ID card with you to have access to the entrance door.
 				</p>
 				</article>
 				
 				<div class="spørsmål" >
-					<a onClick="toggleFAQ('svar8')" onkeydown="enterToggleFAQ('svar8')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow"><h4>Other websites with maps and info about P35</h4></a>
+					<a onClick="toggleFAQ('svar8')" onkeydown="enterToggleFAQ('svar8')" tabindex="0">
+                        <img src="../image/down_arrow.png" class="downarrow" alt="A down arrow">
+                        <h4>Other websites with maps and info about P35</h4></a>
 				</div>
 				
 				<article class="skjul" id="svar8" tabindex="0">
 					To find out more about Høgskolen i Oslo og Akershus and the building P35 please use the following links:
 					<ul>
-						<li><a href="http://www.hioa.no/Om-HiOA/Kart-og-veibeskrivelser/Pilestredet-35-P35">hioa.no/Om-HiOA/Kart-og-veibeskrivelser/Pilestredet-35-P35</a>
-						<li><a href="http://www.hioa.no/Om-HiOA/Fakultet-for-teknologi-kunst-og-design-TKD">hioa.no/Om-HiOA/Fakultet-for-teknologi-kunst-og-design-TKD</a>
-						<li><a href="http://www.hioa.no/LSB/Om-bibliotekene/node_3862">hioa.no/LSB/Om-bibliotekene/node_3862</a>
-						<li><a href="http://www.hioa.no/Om-HiOA/Kart-og-veibeskrivelser">hioa.no/Om-HiOA/Kart-og-veibeskrivelser</a>
-						<li><a href="https://student.hioa.no/en/skriveroversikt-pilestredet">hioa.no/en/skriveroversikt-pilestredet</a>
-						<li><a href="https://goo.gl/maps/huNENWAcqwD2">goo.gl/maps/huNENWAcqwD2</a>
+                        <li>
+                            <a href="http://www.hioa.no/Om-HiOA/Kart-og-veibeskrivelser/Pilestredet-35-P35">
+                                hioa.no/Om-HiOA/Kart-og-veibeskrivelser/Pilestredet-35-P35</a>
+                        </li>
+						<li>
+                            <a href="http://www.hioa.no/Om-HiOA/Fakultet-for-teknologi-kunst-og-design-TKD">
+                                hioa.no/Om-HiOA/Fakultet-for-teknologi-kunst-og-design-TKD</a>
+                        </li>
+						<li><a href="http://www.hioa.no/LSB/Om-bibliotekene/node_3862">
+                            hioa.no/LSB/Om-bibliotekene/node_3862</a>
+                        </li>
+						<li>
+                            <a href="http://www.hioa.no/Om-HiOA/Kart-og-veibeskrivelser">
+                                hioa.no/Om-HiOA/Kart-og-veibeskrivelser</a>
+                        </li>
+						<li>
+                            <a href="https://student.hioa.no/en/skriveroversikt-pilestredet">
+                                hioa.no/en/skriveroversikt-pilestredet</a>
+                        </li>
+						<li>
+                            <a href="https://goo.gl/maps/huNENWAcqwD2">
+                                goo.gl/maps/huNENWAcqwD2</a>
+                        </li>
 					</ul>
 
 				</article>
@@ -245,6 +336,6 @@
 			</article>
 		
         </section>
-        <footer><br>2015, Student Group from Software Enginnering at <a href="http:www.hioa.no" target="_blank">the Oslo and Akershus College University</a></footer>
+        <footer>2015, Student Group from Software Enginnering at <a href="https://www.hioa.no" target="_blank">the Oslo and Akershus College University</a></footer>
     </body>
 </html>
