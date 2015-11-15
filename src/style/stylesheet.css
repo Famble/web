@@ -5,9 +5,7 @@ html {
 body{
     font-size: 100%;
     margin: 0; 
-        background-color: #92DCE0;
-    
-/*    background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/04/light-blue-canvas-fabric-texture.jpg');*/
+    background-color: #92DCE0;
     font-family: 'Roboto Condensed', sans-serif;
     background-size: 100% 100%;
 }
@@ -43,13 +41,10 @@ footer ul li {
 /*Tags---------------------------------*/
 
 
-h1, h3{
+h1{
     color: black;
-}
-h2
-{
 	font-size:1.75em;
-	font-weight:bold;
+
 }
 
 /*Classes and Id's------------------------------*/
@@ -95,7 +90,7 @@ h2
     
     color: black;
     border-bottom: solid 2px;
-    font-weight: bold;
+    font-weight: 900;
     letter-spacing: 2px;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -113,7 +108,7 @@ h2
 
 #top-nav .hoverState{
     border-bottom: solid 2px;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 
@@ -172,10 +167,10 @@ h2
 /*Tekst container her*/
 .container{
     margin-top: 20px;
+    margin-bottom: 30px;
     padding: 5%; 
     width: 90%;
     min-height: 220px;
-/*    background-color: #DADFE1;*/
     background-color: #fcfcfc;
     color: #3d3d3d;
     box-shadow: 1px 1px 1px #888888;
@@ -198,7 +193,7 @@ h2
 #background-img{
 
     width: 100%;
-    height: 250px;
+    height: 350px;
 background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.jpg);
     background-size:  100% 100%;
     background-attachment: fixed;
@@ -251,7 +246,7 @@ background-image: url(https://blogg.hioa.no/nursejakob/files/2015/06/blogg-hioa.
     color: black;
     margin: 0;
     display: inline-block;
-    width: 9%;
+    width: 10%;
     list-style:none;
     padding-top: 8px; 
     padding-bottom: 8px;
