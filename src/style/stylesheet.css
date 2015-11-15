@@ -394,3 +394,11 @@ article article img
         width: 720px !important;
     }
 }
+#floatRight
+{
+	float:right;
+}
+#infoHeader
+{
+	display:inline;
+}
