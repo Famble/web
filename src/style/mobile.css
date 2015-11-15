@@ -1,3 +1,5 @@
+
+/*------------------NAV BAR----------*/
 #top-nav{
     margin-left: -70px !important;
 }
@@ -17,14 +19,6 @@
     
 }
 
-.king-container{
-    width: 100% !important;
-}
-
-#introtext{
-    width: 50% !important;
-}
-
 #kartmeny{
     height: auto;
     position: relative;
@@ -35,6 +29,16 @@
     display: grid !important;
     font-size: 1.5em;
 }
+
+/*----------------Differnt containers--------*/
+.king-container{
+    width: 100% !important;
+}
+
+#introtext{
+    width: 50% !important;
+}
+
 
 #gallericontainer{
 	width:100%;

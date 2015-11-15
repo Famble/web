@@ -117,43 +117,31 @@
 		toggleVis(answer);
 		toggleSkjul(answer);
 	}
-
-function toggleVis(answer){
+    function toggleVis(answer){
     document.getElementById(answer).classList.toggle("vis");
-}
-
-function toggleSkjul(answer){
-    document.getElementById(answer).classList.toggle("skjul");
-}
-
-   function showMenu(){
-        var el = document.getElementById("kartmeny");
-            if(el.className == "visible")
-                hideMenu();
-            else
-                el.className="visible";
-    }
-    function hideMenu(){
-        var el = document.getElementById("kartmeny");
-        el.className = "";
     }
 
-function enterSetBilde(x){
-    if(event.keyCode == 13){
-        setBilde(x);
+    function toggleSkjul(answer){
+        document.getElementById(answer).classList.toggle("skjul");
     }
-}
 
-function enterSlide(v){
-    if(event.keyCode == 13){
-        slide(v);
+    /* Let the enter button work when i tab over elements*/
+    function enterSetBilde(x){
+        if(event.keyCode == 13){
+            setBilde(x);
+        }
     }
-}
 
-function enterToggleFAQ(answer){
-    if(window.event){
-           
-    }if(event.keyCode == 13){
-        toggleFAQ(answer);
+    function enterSlide(v){
+        if(event.keyCode == 13){
+            slide(v);
+        }
     }
-}
+
+    function enterToggleFAQ(answer){
+        if(window.event){
+
+        }if(event.keyCode == 13){
+            toggleFAQ(answer);
+        }
+    }
