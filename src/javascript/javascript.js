@@ -43,12 +43,13 @@
 		changeFloor(x);
 		imagecount = x;
         
-		
 		Image.src="../image/kart/etasje" + x + ".gif";
 	}
 	
 	function changeFloor(floorNr)
 	{	
+        
+        
 		if(floorNr == 0)
 		{
 			document.getElementById("floor").innerHTML = "Basement";
@@ -57,6 +58,7 @@
 		{
 			document.getElementById("floor").innerHTML = String(floorNr) + ".";
 		}
+        
 	}
 	
 	
@@ -126,7 +128,7 @@
     }
     function hideMenu(){
         var el = document.getElementById("kartmeny");
-        el.className = "hidden";
+        el.className = "";
     }
 
 function enterSetBilde(x){
