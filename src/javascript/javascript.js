@@ -157,15 +157,3 @@ function enterToggleFAQ(answer){
         toggleFAQ(answer);
     }
 }
-
-function openAllSvar(){
-    toggleVis('svar0');
-    toggleVis('svar1');
-    toggleVis('svar2');
-    toggleVis('svar3');
-    toggleVis('svar4');
-    toggleVis('svar5');
-    toggleVis('svar6');
-    toggleVis('svar7');
-    toggleVis('svar8');
-}

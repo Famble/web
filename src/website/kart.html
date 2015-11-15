@@ -49,41 +49,34 @@
 		
         <section class="king-container">
 		
-			
             <div id="h1Map" tabindex="0" >
                 <a name="maps"></a>
                 <h1 >Floormaps for P35</h1>
                 <div class="inline"> Floor:</div> <div class="inline" id="floor"> Basement </div>
             </div>
         
+            
             <div id="gallericontainer">
-
                 <img src="../image/kart/etasje0.gif" alt="Basement" longdesc="longdesc/basement_desc.html" id="img" tabindex="0">
                 
                 <div id="left_holder" >
-                    <a tabindex="0" onkeydown="enterSlide(-1)"><img onClick="slide(-1)"  id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" ></a>
-                </div>
-                <div id="right_holder">
                     <a tabindex="0" onkeydown="enterSlide(-1)">
-                    <img onClick="slide(1)" id="right" src="../image/rightArrow.png" alt="A button that takes you to the next picture" >
-                        </a>
+                        <img onClick="slide(-1)"  id="left" src="../image/leftArrow.png" alt="A button that takes you to the previous picture" >
+                    </a>
                 </div>
                 
-				
+                <div id="right_holder">
+                    <a tabindex="0" onkeydown="enterSlide(-1)">
+                        <img onClick="slide(1)" id="right" src="../image/rightArrow.png" alt="A button that takes you to the next picture" >
+                    </a>
+                </div>
             </div>
 		
             
-            
-            
-            
 			<article class="container">
-			     <a name="info"></a>
+                <a name="info"></a>
 				<h2>Info</h2>
-				
-                <div id="openAll"> <a onClick="openAllSvar()">Open all questions</a></div>
-                <div id="closeAll"> <a>Close all questions</a></div>
-                
-                
+
 				<div class="spørsmål" >
 					<a onClick="toggleFAQ('svar0')" onkeydown="enterToggleFAQ('svar0')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow" ><h4>How do I switch floors on the map?</h4></a>
 				</div>
@@ -97,33 +90,44 @@
 				</div>
 				
 				<article class="skjul" id="svar1" tabindex="0">
-					<p><img src="../image/faq/emergency.png" alt="icon for emergency exit" >
+					<p>
+                        <img src="../image/faq/emergency.png" alt="icon for emergency exit" >
 					This one means Emergency Exit only.
 					We have marked some of the least intuitive Emergency Exits in the building. They may seem to be hidden, however once you have seen one of those, it will become easier for you to remember.
 					</p>
 					
 					<p>
-					<img src="../image/faq/male.png" alt="icon for mens bathroom">
-					<img src="../image/faq/female.png" alt="icon for womens bathroom">
+                        <img src="../image/faq/male.png" alt="icon for mens bathroom">
+                        <img src="../image/faq/female.png" alt="icon for womens bathroom">
 					These icons show men and womens bathrooms. Some bathrooms are separate and some are unisex. Main bathrooms for the students are marked on the map.
 					</p>
 					
 					<p>
-					<img src="../image/faq/handicap.gif" alt="icon for easily accessible bathroom">
+					   <img src="../image/faq/handicap.gif" alt="icon for easily accessible bathroom">
 					This is an easily accessible bathroom.
 					If for some reason you find it difficult to use bathrooms listed above, feel free to use the easy accessible bathroom. The symbol seems to us to be very unfortunate, because the target group is wider than people using a wheelchair, but we have not found anything better. 
 					</p>
 	
 				</article>
 				
+                
 				<div class="spørsmål" >
-					<a onClick="toggleFAQ('svar2')" onkeydown="enterToggleFAQ('svar2')" tabindex="0"><img src="../image/down_arrow.png" class="downarrow" alt="A down arrow"><h4>Why are rooms marked with letters? What do those letters mean?</h4></a>
+					<a onClick="toggleFAQ('svar2')" onkeydown="enterToggleFAQ('svar2')" tabindex="0">
+                        <img src="../image/down_arrow.png" class="downarrow" alt="A down arrow">
+                        <h4>Why are rooms marked with letters? What do those letters mean?</h4>
+                    </a>
 				</div>
 				
+                
 				<article class="skjul" id="svar2" tabindex="0">
-					<p>As you have noticed we have rooms with different letters in front of the room number. Those letters are short for the street name, because each classroom is placed in different building area, which has a neighboring street.
+					<p>As you have noticed we have rooms with different letters in front of the room number. 
+                        Those letters are short for the street name,
+                        because each classroom is placed in different building area, which has a neighboring street.
 					</p>
-					<p>The aim with such marking is to motivate you to get better oriented not only in the school area, but also geographically. Our building, P35, is surrounded by 4 streets:
+                    
+					<p>
+                        The aim with such marking is to motivate you to get better oriented not only in the school area,
+                        but also geographically. Our building, P35, is surrounded by 4 streets:
 					</p>
 					
 					<ul>
