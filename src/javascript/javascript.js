@@ -150,3 +150,4 @@ function enterToggleFAQ(answer){
         toggleFAQ(answer);
     }
 }
+
